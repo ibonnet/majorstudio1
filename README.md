@@ -6,6 +6,7 @@ This repository uses data from the UN's Office on Drugs and Crime on incarcerate
 Link: https://dataunodc.un.org/dp-prisons-persons-held
 ## Design mockup
 
+![alt text](http://url/to/img.png)
 
 ## Code prototype
 
