@@ -6,10 +6,17 @@ This repository uses data from the UN's Office on Drugs and Crime on incarcerate
 Link: https://dataunodc.un.org/dp-prisons-persons-held
 ## Design mockup
 
+### Deaths by suicide among incarcerated people in eight countries around the world
 ![alt text](deathsbysuicide.png)
-![alt text](deathsbysuicide.png)
-![alt text](deathsbysuicide.png)
-![alt text](deathsbysuicide.png)
+
+### Deaths by suicide in 2017
+![alt text](Deathsbysuicide2017.png)
+
+### Deaths by suicide in 2018
+![alt text](Deathsbysuicide2018.png)
+
+### Deaths by suicide in 2019
+![alt text](Deathsbysuicide2019.png)
 
 ## Code prototype
 
