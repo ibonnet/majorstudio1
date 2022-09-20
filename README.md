@@ -1,4 +1,4 @@
-<htlm>
+
 # Major Studio 1
 ## Isabel Bonnet
 
