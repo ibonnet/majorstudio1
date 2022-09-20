@@ -20,3 +20,7 @@ Link: https://dataunodc.un.org/dp-prisons-persons-held
 
 ## Code prototype
 Link to the data: https://docs.google.com/spreadsheets/d/1MXPSSWqqaKiRd8w2gFV5ZNsemQTLgGZh42-IyHDYry8/edit?usp=sharing
+
+
+### Comments
+I believe I should change the numbers to deaths by suicide per population inside prisons, as well as include the rate in the country to compare.
