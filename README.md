@@ -1,10 +1,15 @@
 
 # Major Studio 1
-## Data Description
+
+#1A
+
+##1B
+
+### Data Description
 
 This repository uses data from the UN's Office on Drugs and Crime on incarcerated people by their nationality across the world.
 Link: https://dataunodc.un.org/dp-prisons-persons-held
-## Design mockup
+### Design mockup
 
 ### Deaths by suicide among incarcerated people in eight countries around the world
 ![alt text](deathsbysuicide.png)
@@ -18,7 +23,7 @@ Link: https://dataunodc.un.org/dp-prisons-persons-held
 ### Deaths by suicide in 2019
 ![alt text](Deathsbysuicide2019.png)
 
-## Code prototype
+### Code prototype
 Link to the data: https://docs.google.com/spreadsheets/d/1MXPSSWqqaKiRd8w2gFV5ZNsemQTLgGZh42-IyHDYry8/edit?usp=sharing
 
 
