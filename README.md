@@ -13,7 +13,7 @@ Link: https://dataunodc.un.org/dp-prisons-persons-held
 ### Design mockup
 
 ### Deaths by suicide among incarcerated people in eight countries around the world
-
+![alt text](https://github.com/ibonnet/majorstudio1/blob/f5509ff3fa214b2b5975c220443dfa1f80ef9fc4/images-1B/deathsbysuicide.png)
 
 ### Deaths by suicide in 2017
 images-1B/Deathsbysuicide2017.png
