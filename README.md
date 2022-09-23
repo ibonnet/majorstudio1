@@ -3,7 +3,7 @@
 
 # 1A
 
-## 1B
+# 1B
 
 ### Data Description
 
@@ -31,4 +31,4 @@ Link to the data: https://docs.google.com/spreadsheets/d/1MXPSSWqqaKiRd8w2gFV5ZN
 ### Comments
 I believe I should change the numbers to deaths by suicide per population inside prisons, as well as include the rate in the country to compare.
 
-## 1C
+# 1C
