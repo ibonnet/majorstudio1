@@ -16,13 +16,13 @@ Link: https://dataunodc.un.org/dp-prisons-persons-held
 
 
 ### Deaths by suicide in 2017
-![alt text](Deathsbysuicide2017.png)
+images-1B/Deathsbysuicide2017.png
 
 ### Deaths by suicide in 2018
-![alt text](Deathsbysuicide2018.png)
+images-1B/Deathsbysuicide2018.png
 
 ### Deaths by suicide in 2019
-![alt text](Deathsbysuicide2019.png)
+images-1B/Deathsbysuicide2019.png
 
 ### Code prototype
 Link to the data: https://docs.google.com/spreadsheets/d/1MXPSSWqqaKiRd8w2gFV5ZNsemQTLgGZh42-IyHDYry8/edit?usp=sharing
