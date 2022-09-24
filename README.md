@@ -12,19 +12,20 @@ This repository uses data from the UN's Office on Drugs and Crime on incarcerate
 
 ### Design Mockup
 
-Deaths by suicide among incarcerated people in eight countries around the world
+<b> Deaths by suicide among incarcerated people in eight countries around the world </b>
 ![alt text](https://github.com/ibonnet/majorstudio1/blob/f5509ff3fa214b2b5975c220443dfa1f80ef9fc4/images-1B/deathsbysuicide.png)
 
-Deaths by suicide in 2017
+<b> Deaths by suicide in 2017 </b>
 ![alt text](https://github.com/ibonnet/majorstudio1/blob/cc7ef18e5556bf35071a5a3fcfe8ef416807f41e/images-1B/Deathsbysuicide2017.png)
 
-Deaths by suicide in 2018
+<b> Deaths by suicide in 2018 </b>
 ![alt text](https://github.com/ibonnet/majorstudio1/blob/cc7ef18e5556bf35071a5a3fcfe8ef416807f41e/images-1B/Deathsbysuicide2018.png)
 
-Deaths by suicide in 2019
+<b> Deaths by suicide in 2019 </b>
 ![alt text](https://github.com/ibonnet/majorstudio1/blob/cc7ef18e5556bf35071a5a3fcfe8ef416807f41e/images-1B/Deathsbysuicide2019.png)
 
-Deaths by suicide outside prison in 2019
+<b> Deaths by suicide outside prison in 2019 </b>
+
 <a href="https://ourworldindata.org/suicide#800-000-people-die-from-suicide-every-year">Link to the data.</a>
 
 ### Code Prototype
