@@ -61,5 +61,6 @@ Change the data from total number of deaths by suicide to deaths per 100,000 peo
 <a href="https://github.com/ibonnet/majorstudio1/blob/fa8a1c221ae6cd9f429e3173a5e0e8fc2a17213b/cleandata-1D/Deaths%20by%20suicide%20in%20prison%20-%20Mortality%20in%202019%20-%20clean.csv">Link to the data.</a>
 
 ### Code Prototype
+I would like to do a "lollipop chart" with the countries' difference in deaths inside and outside prison using the code from <a href="https://d3-graph-gallery.com/graph/lollipop_basic.html">the d3 gallery here.</a>
 
 ## 1D — Final Design, Prototype and Presentation
