@@ -19,11 +19,10 @@ communicate the information. Group discussion and critique of the work will high
 Sign up for one of the Sustainable Development Goals <a href="https://docs.google.com/spreadsheets/d/10cj3CWiGuwZfWTllv0k6j37ZS63NS3ru0DV35oe0in0/edit#gid=526910931">in the spreadsheet.</a> Give us an overview of what the goal is about: What does it actually mean? 3-5 Key statistics? How might we achieve it? Provide us with one concrete case study. Your presentation should not be longer than 5 minutes and should be <a href="https://docs.google.com/presentation/d/1zQHVrOapd5NiZWMIuW9yzjX-Jn1iG8ourvFD3ePObHQ/edit#slide=id.g1493215f871_0_0">in this slide deck.</a>
 
 ### Presentation
-<img src="https://github.com/ibonnet/majorstudio1/blob/a2949b810194ac338f508d540dc2145a2d0ae810/Lab01/1A%E2%80%93SDGIntroResearch/1A-Goal16.png" height="200">
+<img src="https://github.com/ibonnet/majorstudio1/blob/a2949b810194ac338f508d540dc2145a2d0ae810/Lab01/1A%E2%80%93SDGIntroResearch/1A-Goal16.png" height="300">
 
 ## 1B – Concept & Sketches
 ### Instructions
-	
 <b>1. Data Review:</b>
 Now that you have learned about the SDGs and the different organizations, initiatives and locations involved, try to research actual data sets that might be interesting to you. Find data sets that you find interesting, that are not too large (> 100,000 entries) and not too small (80<).
 
@@ -32,7 +31,7 @@ After reviewing the data and data set imagine 3 different quantitative visualiza
 The paragraph should include: Title of the visualization; What are questions that you want to explore with this visualization?; Which quantitative dataset is used?; What are the properties of the data set? How many data points, what's the quality of the data etc?; Which visualization method is used and why?
 
 ### Hand-drawn sketch
-My first idea was to focus 
+My first idea was to focus on the data from the Goal 16 in which I would use a map to illustrate the different levels of insecurity and fear of walking in the streets around the world.
 <img src="https://github.com/ibonnet/majorstudio1/blob/ec7c450b9235ed1a61b0f7ee5a15523ce72007fb/images-1B/1B-Concept%20and%20sketches.jpg" height="400">
 
 ## 1C – Design Mockup and First Prototype
