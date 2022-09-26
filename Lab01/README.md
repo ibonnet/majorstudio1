@@ -19,7 +19,7 @@ communicate the information. Group discussion and critique of the work will high
 Sign up for one of the Sustainable Development Goals <a href="https://docs.google.com/spreadsheets/d/10cj3CWiGuwZfWTllv0k6j37ZS63NS3ru0DV35oe0in0/edit#gid=526910931">in the spreadsheet.</a> Give us an overview of what the goal is about: What does it actually mean? 3-5 Key statistics? How might we achieve it? Provide us with one concrete case study. Your presentation should not be longer than 5 minutes and should be <a href="https://docs.google.com/presentation/d/1zQHVrOapd5NiZWMIuW9yzjX-Jn1iG8ourvFD3ePObHQ/edit#slide=id.g1493215f871_0_0">in this slide deck.</a>
 
 ### Presentation
-
+<img src="https://github.com/ibonnet/majorstudio1/blob/a2949b810194ac338f508d540dc2145a2d0ae810/Lab01/1A%E2%80%93SDGIntroResearch/1A-Goal16.png" height="200">
 
 ## 1B – Concept & Sketches
 ### Instructions
