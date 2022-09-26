@@ -61,4 +61,6 @@ I would also like to do something like the graphs in this article from <a href="
 
 <img src="https://github.com/ibonnet/majorstudio1/blob/82693318d0e7ea184f77bf4498f236c33180fba8/images-1B/svg-deaths-by-suicide-in-the-world.png" height="400">
 
+<img src="https://github.com/ibonnet/majorstudio1/blob/694982564fd3ea53d5bc0ebf5f9288d6cc7ae331/images-1B/Deaths%20by%20suicide%20per%20country%202019%20inside%20and%20outside%20prison.png" height="250">
+
 ## 1D — Final Design, Prototype and Presentation
