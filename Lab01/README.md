@@ -1,8 +1,38 @@
 
-# Major Studio 1
+# Lab 01: Quantitative Data
+
+### Project description
+In an attempt to illustrate the urgent need to provide adequate mental health aid and more humane conditions inside prison, I used data from the <a href="https://dataunodc.un.org/dp-prisons-persons-held">UN's Office on Drugs and Crime</a> and from the <a href="https://ourworldindata.org/suicide#800-000-people-die-from-suicide-every-year">Institute for Health Metrics and Evaluation, Global Burden of Disease</a>, to compare deaths by suicide inside and outside prison facilities in 2019.
+
+### Learning goals
+<i>This segment of the course examines the fundamentals of quantitative data. Students will gain an
+understanding of how data is gathered, the databases and other formats by which it can be stored,
+the APIs by which it can be accessed, and how it may need to be “cleaned” before use. Design
+exercises will use web-based libraries (such as D3, R or Processing) to create visualizations of sample
+data sets. Through the exercise, students will learn how to determine meaningful patterns along with
+best practices for visualizing them. Students will be given a data set to design static visualizations for
+an intended audience. Through the exercise, students will explore the most effective way to
+communicate the information. Group discussion and critique of the work will highlight best practices. </i>
+
+## 1A – SDG Intro Research
+### Instructions
+Sign up for one of the Sustainable Development Goals <a href="https://docs.google.com/spreadsheets/d/10cj3CWiGuwZfWTllv0k6j37ZS63NS3ru0DV35oe0in0/edit#gid=526910931">in the spreadsheet.</a> Give us an overview of what the goal is about: What does it actually mean? 3-5 Key statistics? How might we achieve it? Provide us with one concrete case study. Your presentation should not be longer than 5 minutes and should be <a href="https://docs.google.com/presentation/d/1zQHVrOapd5NiZWMIuW9yzjX-Jn1iG8ourvFD3ePObHQ/edit#slide=id.g1493215f871_0_0">in this slide deck.</a>
+
+### Presentation
+
 
 ## 1B – Concept & Sketches
+### Instructions
+	
+<b>1. Data Review:</b>
+Now that you have learned about the SDGs and the different organizations, initiatives and locations involved, try to research actual data sets that might be interesting to you. Find data sets that you find interesting, that are not too large (> 100,000 entries) and not too small (80<).
 
+<b>2. Concepts and Sketches:</b>
+After reviewing the data and data set imagine 3 different quantitative visualization concepts with 3 different data sets. For each concept, create a hand-drawn sketch and write a paragraph about the idea. The sketch really should be hand-drawn, not done with a computer. Please design it for a format of 16:9 and make it self explanatory, so that anyone can understand what they are looking at even without your explanation.
+The paragraph should include: Title of the visualization; What are questions that you want to explore with this visualization?; Which quantitative dataset is used?; What are the properties of the data set? How many data points, what's the quality of the data etc?; Which visualization method is used and why?
+
+### Hand-drawn sketch
+My first idea was to focus 
 <img src="https://github.com/ibonnet/majorstudio1/blob/ec7c450b9235ed1a61b0f7ee5a15523ce72007fb/images-1B/1B-Concept%20and%20sketches.jpg" height="400">
 
 ## 1C – Design Mockup and First Prototype
