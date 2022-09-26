@@ -5,7 +5,11 @@ This repository contains my assignments for the <b>Major Studio 1</b> course at 
 
 ## Lab 01: Quantitative Data
 
-<i><b>Learning Goals:</b> This segment of the course examines the fundamentals of quantitative data. Students will gain an
+### Project description
+In an attempt to illustrate the urgent need to provide adequate mental health aid and more humane conditions inside prison, I used data from the <a href="https://dataunodc.un.org/dp-prisons-persons-held">UN's Office on Drugs and Crime</a> and from the <a href="https://ourworldindata.org/suicide#800-000-people-die-from-suicide-every-year">Institute for Health Metrics and Evaluation, Global Burden of Disease</a>, to compare deaths by suicide inside and outside prison facilities in 2019.
+
+### Learning goals
+<i>This segment of the course examines the fundamentals of quantitative data. Students will gain an
 understanding of how data is gathered, the databases and other formats by which it can be stored,
 the APIs by which it can be accessed, and how it may need to be “cleaned” before use. Design
 exercises will use web-based libraries (such as D3, R or Processing) to create visualizations of sample
@@ -14,10 +18,11 @@ best practices for visualizing them. Students will be given a data set to design
 an intended audience. Through the exercise, students will explore the most effective way to
 communicate the information. Group discussion and critique of the work will highlight best practices. </i>
 
-<a href="https://github.com/ibonnet/majorstudio1/tree/main/Lab01">The assignmnent repository can be found here.</a>
+### <a href="https://github.com/ibonnet/majorstudio1/tree/main/Lab01">The assignment repository can be found here.</a>
 
 ## Lab 02: Qualitative Data
-<i><b>Learning Goals:</b>The second segment of the course will introduce the concept of qualitative data and how it can be
+### Learning goals
+<i> The second segment of the course will introduce the concept of qualitative data and how it can be
 represented. Students will explore manually-created design alternatives to sample data sets and
 examine how those solutions effectively communicate the content, as well as present a narrative
 context for the recipient. Students will be given a data set and will design a static visualization of the
@@ -25,10 +30,11 @@ content for a proposed intended audience. Through the exercise, students will ex
 effective way to communicate the information. Group discussion and critique of the work will
 examine best practices.</i>
 
-<a href="https://github.com/ibonnet/majorstudio1/tree/main/Lab02">The assignmnent repository can be found here.</a>
+### <a href="https://github.com/ibonnet/majorstudio1/tree/main/Lab02">The assignmnent repository can be found here.</a>
 
 ## Lab 03: Dynamics, Interactivity and Narrative
-<i><b>Learning Goals:</b>This segment of the course will introduce the design elements of dynamics and interactivity.
+### Learning goals
+<i> This segment of the course will introduce the design elements of dynamics and interactivity.
 Students will gain an understanding of how these elements can be used to further communicate
 meaning within data sets. Design exercises will introduce additional web-based tools to incorporate
 dynamics and interactivity into new design explorations. Special emphasis will be placed on the
@@ -40,4 +46,4 @@ interactive visualization of the content for an intended audience. Through the e
 explore the most effective way to animate the information. Group discussion and critique of the
 design solutions will highlight best practices.</i>
 
-<a href="https://github.com/ibonnet/majorstudio1/tree/main/Lab03">The assignmnent repository can be found here.</a>
+### <a href="https://github.com/ibonnet/majorstudio1/tree/main/Lab03">The assignmnent repository can be found here.</a>
