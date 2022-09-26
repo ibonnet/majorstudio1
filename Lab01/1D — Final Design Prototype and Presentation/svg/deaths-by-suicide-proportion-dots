@@ -1,0 +1,174 @@
+<html>
+
+<div class="flex-chart">
+  
+        <div id="deaths-by-suicide-proportion-dots">
+
+        <svg viewBox="41.5,40,17,30" width="100%">
+          
+          <!-- United States, 32 -->
+
+    <circle r="0.2" class="node node-match" cx="49" cy="49.5" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="49" cy="50" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="49" cy="50.5" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="49" cy="49" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="49" cy="51" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="49" cy="51.5" fill= "#922B21"> </circle>
+          <!-- 6 -->
+    <circle r="0.2" class="node node-match" cx="49.5" cy="49" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="49.5" cy="49.5" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="49.5" cy="50" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="49.5" cy="50.5" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="49.5" cy="51" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="49.5" cy="51.5" fill= "#922B21"> </circle>
+          <!-- 12 -->
+    <circle r="0.2" class="node node-match" cx="50" cy="49.5" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="50" cy="50" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="50" cy="50.5" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="50" cy="49" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="50" cy="51" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="50" cy="51.5" fill= "#922B21"> </circle>
+          <!-- 18 -->    
+    <circle r="0.2" class="node node-match" cx="50.5" cy="49.5" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="50.5" cy="50" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="50.5" cy="50.5" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="50.5" cy="49" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="50.5" cy="51" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="50.5" cy="51.5" fill= "#922B21"> </circle>
+          <!-- 24 -->
+    <circle r="0.2" class="node node-match" cx="51" cy="49" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="51" cy="49.5" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="51" cy="50" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="51" cy="50.5" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="51" cy="51" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="51" cy="51.5" fill= "#922B21"> </circle>
+          <!-- 30 -->
+    <circle r="0.2" class="node node-match" cx="51.5" cy="49" fill= "#922B21"> </circle>
+    <circle r="0.2" class="node node-match" cx="51.5" cy="49.5" fill= "#922B21"> </circle>
+          <!-- 32 -->
+          
+          <!-- Germany, 4 -->
+
+    <circle r="0.2" class="node node-match" cx="51.5" cy="50" fill= "#2ECC71"> </circle>
+    <circle r="0.2" class="node node-match" cx="51.5" cy="50.5" fill= "#2ECC71"> </circle>
+    <circle r="0.2" class="node node-match" cx="51.5" cy="51" fill= "#2ECC71"> </circle>
+    <circle r="0.2" class="node node-match" cx="51.5" cy="51.5" fill= "#2ECC71"> </circle>
+          
+          <!-- France, 9 -->
+    <circle r="0.2" class="node node-match" cx="49" cy="52" fill= "#F4D03F"> </circle>
+    <circle r="0.2" class="node node-match" cx="49.5" cy="52" fill= "#F4D03F"> </circle>
+    <circle r="0.2" class="node node-match" cx="50" cy="52" fill= "#F4D03F"> </circle>
+    <circle r="0.2" class="node node-match" cx="50.5" cy="52" fill= "#F4D03F"> </circle>
+    <circle r="0.2" class="node node-match" cx="51" cy="52" fill= "#F4D03F"> </circle>
+          <!-- 5 -->
+    <circle r="0.2" class="node node-match" cx="51.5" cy="52" fill= "#F4D03F"> </circle>
+    <circle r="0.2" class="node node-match" cx="52" cy="52" fill= "#F4D03F"> </circle>
+    <circle r="0.2" class="node node-match" cx="52" cy="51.5" fill= "#F4D03F"> </circle>
+    <circle r="0.2" class="node node-match" cx="52" cy="51" fill= "#F4D03F"> </circle>
+          <!-- 9 -->
+
+          <!-- Thailand, 28 -->
+    <circle r="0.2" class="node node-match" cx="52" cy="50.5" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="52" cy="50" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="52" cy="49.5" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="52" cy="49" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="52" cy="48.5" fill= "#5499C7"> </circle>
+          <!-- 5 -->
+    <circle r="0.2" class="node node-match" cx="51.5" cy="48.5" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="51" cy="48.5" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="50.5" cy="48.5" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="50" cy="48.5" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="49.5" cy="48.5" fill= "#5499C7"> </circle>
+          <!-- 10 -->
+    <circle r="0.2" class="node node-match" cx="49" cy="48.5" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="49" cy="48" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="49.5" cy="48" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="50" cy="48" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="50.5" cy="48" fill= "#5499C7"> </circle>
+          <!-- 15 -->
+    <circle r="0.2" class="node node-match" cx="48.5" cy="48" fill= "#5499C7"> </circle>  
+    <circle r="0.2" class="node node-match" cx="48.5" cy="48.5" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="51" cy="48" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="51.5" cy="48" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="52" cy="48" fill= "#5499C7"> </circle>
+          <!-- 20 -->
+    <circle r="0.2" class="node node-match" cx="50" cy="47.5" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="50.5" cy="47.5" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="51" cy="47.5" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="51.5" cy="47.5" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="52" cy="47.5" fill= "#5499C7"> </circle>
+          <!-- 25 -->
+    <circle r="0.2" class="node node-match" cx="49.5" cy="47.5" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="49" cy="47.5" fill= "#5499C7"> </circle>
+    <circle r="0.2" class="node node-match" cx="48.5" cy="47.5" fill= "#5499C7"> </circle>
+          <!-- 28 -->
+          
+          <!-- Vietnam, 6  -->
+    <circle r="0.2" class="node node-match" cx="48.5" cy="49" fill= "#AF7AC5"> </circle>
+    <circle r="0.2" class="node node-match" cx="48.5" cy="49.5" fill= "#AF7AC5"> </circle>
+    <circle r="0.2" class="node node-match" cx="48.5" cy="50" fill= "#AF7AC5"> </circle>
+          <!-- 3 -->
+    <circle r="0.2" class="node node-match" cx="48.5" cy="50.5" fill= "#AF7AC5"> </circle>
+    <circle r="0.2" class="node node-match" cx="48.5" cy="51" fill= "#AF7AC5"> </circle>
+    <circle r="0.2" class="node node-match" cx="48.5" cy="51.5" fill= "#AF7AC5"> </circle>
+          <!-- 6 -->
+          
+          <!-- China, 18  -->
+    <circle r="0.2" class="node node-match" cx="48.5" cy="52" fill= "#C65700"> </circle>
+    <circle r="0.2" class="node node-match" cx="48" cy="52" fill= "#C65700"> </circle>
+    <circle r="0.2" class="node node-match" cx="48" cy="51.5" fill= "#C65700"> </circle>
+    <circle r="0.2" class="node node-match" cx="48" cy="51" fill= "#C65700"> </circle>
+    <circle r="0.2" class="node node-match" cx="48" cy="52.5" fill= "#C65700"> </circle>
+          <!-- 5 -->
+    <circle r="0.2" class="node node-match" cx="48.5" cy="52.5" fill= "#C65700"> </circle>
+    <circle r="0.2" class="node node-match" cx="49" cy="52.5" fill= "#C65700"> </circle>
+    <circle r="0.2" class="node node-match" cx="49.5" cy="52.5" fill= "#C65700"> </circle>
+    <circle r="0.2" class="node node-match" cx="50" cy="52.5" fill= "#C65700"> </circle>
+    <circle r="0.2" class="node node-match" cx="50.5" cy="52.5" fill= "#C65700"> </circle>
+          <!-- 10 -->
+    <circle r="0.2" class="node node-match" cx="51" cy="52.5" fill= "#C65700"> </circle>
+    <circle r="0.2" class="node node-match" cx="51.5" cy="52.5" fill= "#C65700"> </circle>
+    <circle r="0.2" class="node node-match" cx="52" cy="52.5" fill= "#C65700"> </circle>
+    <circle r="0.2" class="node node-match" cx="48" cy="49" fill= "#C65700"> </circle>
+    <circle r="0.2" class="node node-match" cx="48" cy="48.5" fill= "#C65700"> </circle>
+          <!-- 15 -->
+    <circle r="0.2" class="node node-match" cx="48" cy="50" fill= "#C65700"> </circle>
+    <circle r="0.2" class="node node-match" cx="48" cy="49.5" fill= "#C65700"> </circle>
+    <circle r="0.2" class="node node-match" cx="48" cy="50.5" fill= "#C65700"> </circle>
+          <!-- 18 -->
+
+          <!-- Japan, 2  -->
+    <circle r="0.2" class="node node-match" cx="48" cy="48" fill= "#218051"> </circle>
+    <circle r="0.2" class="node node-match" cx="48" cy="47.5" fill= "#218051"> </circle>
+          
+  <style>
+    .small {
+      font: 0.2px arial;
+          }
+  </style>
+
+  <rect width="0.2" height="0.2" x="42.65" y="47.3" fill= "#2ECC71"/>
+  <text x="43" y="47.5" class="small">Germany (76)</text></g>
+
+   <rect width="0.2" height="0.2" x="42.65" y="47.8" fill= "#AF7AC5"/>
+  <text x="43" y="48" class="small">Vietnam (128)</text></g>
+
+   <rect width="0.2" height="0.2" x="42.65" y="48.3" fill= "#F4D03F"/>
+  <text x="43" y="48.5" class="small">France (186)</text></g>
+ 
+   <rect width="0.2" height="0.2" x="42.65" y="48.8" fill= "#C65700"/>
+  <text x="43" y="49" class="small">China (351)</text></g>
+
+   <rect width="0.2" height="0.2" x="42.65" y="49.3" fill= "#5499C7"/>
+  <text x="43" y="49.5" class="small">Thailand (563)</text></g>
+  
+  <rect width="0.2" height="0.2" x="42.65" y="49.8" fill= "#922B21"/>
+  <text x="43" y="50" class="small">United States (630)</text></g>
+
+  <rect width="0.2" height="0.2" x="42.65" y="50.3" fill= "#218051"/>
+  <text x="43" y="50.5" class="small">Japan (38)</text></g>
+  
+  <text x="48.45" y="53.2" class="verysmall" fill="grey" width=60% font-size= .17px font-style= italic>Average deaths by suicide in the world in 2019 is 196.</text></g>
+    
+        </div>
+</html>
