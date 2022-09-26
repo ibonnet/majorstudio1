@@ -20,7 +20,7 @@ Here is where the graphs for this assignment live.
 <img src="" height="300">
 
 ### Deaths by suicide inside prison in the US vs in the world in 2019
-<img src="" height="300">
+<img src="https://github.com/ibonnet/majorstudio1/blob/7df71869e32e4295f5bba4ef82800f271345d62e/Lab01/1C%20%E2%80%93Design%20Mockup%20and%20First%20Prototype/Graphs/Deaths%20inside%20prison%20in%20the%20US%20vs%20in%20the%20world%20in%202019.png.png" height="300">
 
 ### Deaths by suicide inside and outside prison in 2019
 <img src="" height="300">
