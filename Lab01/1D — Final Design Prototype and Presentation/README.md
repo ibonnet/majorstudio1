@@ -5,3 +5,7 @@ In an attempt to illustrate the urgent need to provide adequate mental health ai
 ## Data description
 
 Data from the Institute for Health Metrics and Evaluation, Global Burden of Disease represents deaths by suicide per 100,000 individuals outside prison and data from the UN's Office on Drugs and Crime represents deaths by suicide and self-harm per 100,000 individuals inside prison. Both datasets are from 2019 and the countries that did not have data in either one were marked as missing values.
+
+## Country selection
+
+The US is the main focus of this assignment, although I have included countries where our classmates are from as reference, as well as Norway and Japan where deaths by suicide rates were low.
