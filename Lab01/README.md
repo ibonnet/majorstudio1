@@ -19,6 +19,8 @@ communicate the information. Group discussion and critique of the work will high
 Sign up for one of the Sustainable Development Goals <a href="https://docs.google.com/spreadsheets/d/10cj3CWiGuwZfWTllv0k6j37ZS63NS3ru0DV35oe0in0/edit#gid=526910931">in the spreadsheet.</a> Give us an overview of what the goal is about: What does it actually mean? 3-5 Key statistics? How might we achieve it? Provide us with one concrete case study. Your presentation should not be longer than 5 minutes and should be <a href="https://docs.google.com/presentation/d/1zQHVrOapd5NiZWMIuW9yzjX-Jn1iG8ourvFD3ePObHQ/edit#slide=id.g1493215f871_0_0">in this slide deck.</a>
 
 ### Presentation
+I presented the UN's Sustainable Development Goal 16, which aims to support societies where there is conflict or wars by providing access to justice and inclusive institutions.
+
 <img src="https://github.com/ibonnet/majorstudio1/blob/a2949b810194ac338f508d540dc2145a2d0ae810/Lab01/1A%E2%80%93SDGIntroResearch/1A-Goal16.png" height="300">
 
 ## 1B – Concept & Sketches
@@ -32,9 +34,16 @@ The paragraph should include: Title of the visualization; What are questions tha
 
 ### Hand-drawn sketch
 My first idea was to focus on the data from the Goal 16 in which I would use a map to illustrate the different levels of insecurity and fear of walking in the streets around the world.
+
 <img src="https://github.com/ibonnet/majorstudio1/blob/ec7c450b9235ed1a61b0f7ee5a15523ce72007fb/images-1B/1B-Concept%20and%20sketches.jpg" height="400">
 
 ## 1C – Design Mockup and First Prototype
+### Instructions
+After the first design review, decide for one of the concepts for this assignment. You now have two parallel work streams: Design and code. For this assignment create a prototype for both:
+
+<b>Design mockup:</b> Create a high fidelity version of the design you want to create. Include the data visualization, a title, a legend and the relevant scales and units. Carefully consider colors, scale, composition and typography. Be able to answer why you picked any of the above. All designs should be created with a 16:9 aspect ratio in mind (1920x1080px).
+
+<b>Code prototype:</b> Gather all the data you want to use or build a system to query it using the api. Make sure the data is structured in the right way for your visualization. Build a prototype that loads the data and displays it visually on the screen. Imagine a plan to get to your high fidelity mockup in code.
 
 ### Data Description
 
