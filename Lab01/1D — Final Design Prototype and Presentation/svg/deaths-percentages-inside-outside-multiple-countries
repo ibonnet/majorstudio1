@@ -1,0 +1,61 @@
+
+<html>
+
+<div class="flex-chart">
+        <div id="deaths-percentages-inside-outside-multiple-countries">
+
+        <svg viewBox="100,40,350,150">
+          <!-- United States -->
+    <circle r="0.5835639436" class="node node-match" cx="250" cy="120" fill= "#922B21"> </circle>
+    <circle r="31.50746088" class="node node-match" cx="250" cy="80" fill= "#922B21"> </circle>
+          <!-- Thailand -->
+    <circle r="0.4314032844" class="node node-match" cx="245" cy="120" fill= "#B03A2E"> </circle>
+    <circle r="28.16866979" class="node node-match" cx="245" cy="80" fill= "#B03A2E"> </circle>
+          <!-- China -->
+    <circle r="0.3402005102" class="node node-match" cx="240" cy="120" fill= "#C65700"> </circle>
+    <circle r="17.52883841" class="node node-match" cx="240" cy="80" fill= "#C65700"> </circle>
+          <!-- France -->
+    <circle r="0.6244256412" class="node node-match" cx="235" cy="120" fill= "#F39C12"> </circle>
+    <circle r="9.321788071" class="node node-match" cx="235" cy="80" fill= "#F39C12"> </circle>
+          <!-- Vietnam -->
+    <circle r="0.3972597333" class="node node-match" cx="230" cy="120" fill= "#FFC300"> </circle>
+    <circle r="6.411688619" class="node node-match" cx="230" cy="80" fill= "#FFC300"> </circle>
+          <!-- Germany -->
+    <circle r="0.475395009" class="node node-match" cx="225" cy="120" fill= " #D4AC0D"> </circle>
+    <circle r="3.780425855" class="node node-match" cx="225" cy="80" fill= "#D4AC0D"> </circle>
+          <!-- Norway
+    <circle r="0.4446716267" class="node node-match" cx="190" cy="120" fill= "#A73105"> </circle>
+    <circle r="3.310181583" class="node node-match" cx="190" cy="80" fill= "#A73105"> </circle>
+ -->
+          <!-- World
+    <circle r="0.4694850872" class="node node-match" cx="150" cy="120" fill= "#76046A"> </circle>
+    <circle r="9.794181475" class="node node-match" cx="150" cy="80" fill= "#76046A"> </circle>
+ -->
+          
+  <style>
+    .small {
+      font: 5px sans-serif;
+          }
+  </style>
+          <rect width="4" height="4" x="210" y="130" fill= " #D4AC0D"/>
+  <text x="225" y="135" class="small">Germany</text></g>
+
+   <rect width="4" height="4" x="210" y="140" fill= "#FFC300"/>
+  <text x="225" y="145" class="small">Vietnam</text></g>
+
+   <rect width="4" height="4" x="210" y="150" fill= "#F39C12"/>
+  <text x="225" y="155" class="small">France</text></g>
+ 
+   <rect width="4" height="4" x="210" y="160" fill= "#C65700"/>
+  <text x="225" y="165" class="small">China</text></g>
+
+   <rect width="4" height="4" x="210" y="170" fill= "#B03A2E"/>
+  <text x="225" y="175" class="small">Thailand</text></g>
+  
+  <rect width="4" height="4" x="210" y="180" fill= "#922B21"/>
+  <text x="225" y="185" class="small">United States</text></g>
+  
+  </div>
+  
+</html> 
+    
