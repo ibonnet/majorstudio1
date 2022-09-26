@@ -48,16 +48,16 @@ After the first design review, decide for one of the concepts for this assignmen
 ### Design and prototype
 I used data from the UN's Office on Drugs and Crime and from the Institute for Health Metrics and Evaluation, Global Burden of Disease, to compare deaths by suicide inside and outside prison facilities in 2019. I <a href="https://github.com/ibonnet/majorstudio1/tree/main/Lab01/metadata">cleaned the data</a> and created different types of graphs and illustrations with excel, and then with SVG. 
 
+<b> Graph with lines </b>
+
+My classmates suggested that I use a simple graph to illustrate the different proportions of deaths by suicide around the world. I believe that <a href="https://d3-graph-gallery.com/graph/lollipop_basic.html">this lollipop chart from the d3 gallery</a> would be a good option for this specific case.
+
 <b> Proportions in the world </b>
 
 This visualization shows the proportion of deaths by suicide within the incarcerated population around the world in 2019. Each dot represents a country and the size represents the numbers of deaths per 100,000 people:
 <img src="https://github.com/ibonnet/majorstudio1/blob/82693318d0e7ea184f77bf4498f236c33180fba8/images-1B/svg-deaths-by-suicide-in-the-world.png" height="400">
 
 I would like to do a similar visualization adding an interactive option that shows the country and proportion for each dot when the mouse hovers the dot.
-
-<b> Graph with lines </b>
-
-My classmates suggested that I use a simple graph to illustrate the different proportions of deaths by suicide around the world. I believe that <a href="https://d3-graph-gallery.com/graph/lollipop_basic.html">this lollipop chart from the d3 gallery</a> would be a good option for this specific case.
 
 <b><a href="https://github.com/ibonnet/majorstudio1/tree/main/Lab01/1C%20%E2%80%93Design%20Mockup%20and%20First%20Prototype">You can see the entire process here.</a></b>
 
