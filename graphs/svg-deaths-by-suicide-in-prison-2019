@@ -1,0 +1,142 @@
+
+<html>
+          <!-- "r" represents the percentage of deaths by population around the world in 2019 inside prison -->
+          
+<div class="flex-chart">
+        <div id="deaths-by-suicide-in-prison-2019">
+
+        <svg viewBox="0,0,200,200">
+          <!-- Saint Vincent and the Grenadines -->
+    <circle r="3.631323722" class="node node-match" cx="10" cy="90" fill= "#911B02"> </circle>
+          <!-- Dominica -->
+    <circle r="3.507272317" class="node node-match" cx="20" cy="90" fill= "#B52000"> </circle>
+          <!-- United States -->
+    <circle r="3.06376859346209" class="node node-match" cx="30" cy="90" fill= "#B52000"> </circle>
+          <!-- Thailand -->
+          <circle r="2.739106339" class="node node-match" cx="40" cy="90" fill= "#BD3900"> </circle>
+    <circle r="2.608338593" class="node node-match" cx="50" cy="90" fill= "#BD3900"> </circle>
+    <circle r="2.573283169" class="node node-match" cx="60" cy="90" fill= "#BD3900"> </circle>
+    <circle r="2.538889387" class="node node-match" cx="70" cy="90" fill= "#CF4103"> </circle>
+    <circle r="2.079234203" class="node node-match" cx="80" cy="90" fill= "#CF4103"> </circle>
+          <!-- Bahamas -->
+    <circle r="1.984804935" class="node node-match" cx="90" cy="90" fill= "#DB571E"> </circle>
+    <circle r="1.888321933" class="node node-match" cx="100" cy="90" fill= "#DB571E"> </circle>
+    <circle r="1.746270252" class="node node-match" cx="110" cy="90" fill= "#DB571E"> </circle>
+    <circle r="1.739933806" class="node node-match" cx="120" cy="90" fill= "#DB571E"> </circle>
+    <circle r="1.704494843" class="node node-match" cx="130" cy="90" fill= "#DB571E"> </circle>
+    <circle r="1.699023743" class="node node-match" cx="140" cy="90" fill= "#DB571E"> </circle>
+          <!-- Uruguay -->
+    <circle r="1.618676924" class="node node-match" cx="150" cy="90" fill= "#DB571E"> </circle>
+    <circle r="1.600795557" class="node node-match" cx="160" cy="90" fill= "#DB571E"> </circle>
+    <circle r="1.4860705" class="node node-match" cx="170" cy="90" fill= "#DB7F1E"> </circle>
+    <circle r="1.480506498" class="node node-match" cx="10" cy="100" fill= "#DB7F1E"> </circle>
+    <circle r="1.460291062" class="node node-match" cx="20" cy="100" fill= "#DB7F1E"> </circle>
+          <!-- Saint Lucia -->
+    <circle r="1.367134885" class="node node-match" cx="30" cy="100" fill= "#DB7F1E"> </circle>
+    <circle r="1.361178259" class="node node-match" cx="40" cy="100" fill= "#DB7F1E"> </circle>
+    <circle r="1.352317822" class="node node-match" cx="50" cy="100" fill= "#DB7F1E"> </circle>
+    <circle r="1.263979485" class="node node-match" cx="60" cy="100" fill= "#DB7F1E"> </circle>
+    <circle r="1.244970552" class="node node-match" cx="70" cy="100" fill= "#DB7F1E"> </circle>
+          <!-- Dominican Republic -->
+    <circle r="1.232091143" class="node node-match" cx="80" cy="100" fill= "#DB7F1E"> </circle>
+    <circle r="1.195726387" class="node node-match" cx="90" cy="100" fill= "#DB7F1E"> </circle>
+    <circle r="1.186707154" class="node node-match" cx="100" cy="100" fill= "#DB7F1E"> </circle>
+    <circle r="1.184849604" class="node node-match" cx="110" cy="100" fill= "#DB7F1E"> </circle>
+    <circle r="1.151566642" class="node node-match" cx="120" cy="100" fill= "#DB7F1E"> </circle>
+          <!-- Ecuador -->
+    <circle r="1.11342895" class="node node-match" cx="130" cy="100" fill= "#DB7F1E"> </circle>
+    <circle r="1.111450566" class="node node-match" cx="140" cy="100" fill= "#DB7F1E"> </circle>
+    <circle r="1.108273773" class="node node-match" cx="150" cy="100" fill= "#DB7F1E"> </circle>
+    <circle r="1.103438472" class="node node-match" cx="160" cy="100" fill= "#DB7F1E"> </circle>
+    <circle r="1.081405136" class="node node-match" cx="170" cy="100" fill= "#DB7F1E"> </circle>
+          <!-- Paraguay -->
+    <circle r="1.078108942" class="node node-match" cx="10" cy="110" fill= "#DB7F1E"> </circle>
+    <circle r="1.014810441" class="node node-match" cx="20" cy="110" fill= "#DB7F1E"> </circle>
+    <circle r="1.007173145" class="node node-match" cx="30" cy="110" fill= "#DB7F1E"> </circle>
+    <circle r="0.9941996818" class="node node-match" cx="40" cy="110" fill= "#E1BC25"> </circle>
+    <circle r="0.9937284897" class="node node-match" cx="50" cy="110" fill= "#E1BC25"> </circle>
+          <!-- Philippines -->
+    <circle r="0.9668487728" class="node node-match" cx="60" cy="110" fill= "#E1BC25"> </circle>
+    <circle r="0.9654930446" class="node node-match" cx="70" cy="110" fill= "#E1BC25"> </circle>
+    <circle r="0.957463406" class="node node-match" cx="80" cy="110" fill= "#E1BC25"> </circle>
+    <circle r="0.9573652562" class="node node-match" cx="90" cy="110" fill= "#E1BC25"> </circle>
+    <circle r="0.9404070741" class="node node-match" cx="100" cy="110" fill= "#E1BC25"> </circle>
+          <!-- Estonia -->
+    <circle r="0.912136417" class="node node-match" cx="110" cy="110" fill= "#E1BC25"> </circle>
+    <circle r="0.9064456712" class="node node-match" cx="120" cy="110" fill= "#E1BC25"> </circle>
+    <circle r="0.8705317151" class="node node-match" cx="130" cy="110" fill= "#E1BC25"> </circle>
+    <circle r="0.8514194867" class="node node-match" cx="140" cy="110" fill= "#E1BC25"> </circle>
+    <circle r="0.8484995088" class="node node-match" cx="150" cy="110" fill= "#E1BC25"> </circle>
+          <!-- Montenegro -->
+    <circle r="0.8438936353" class="node node-match" cx="160" cy="110" fill= "#E1BC25"> </circle>
+    <circle r="0.8365781938" class="node node-match" cx="170" cy="110" fill= "#E1BC25"> </circle>
+    <circle r="0.8324521433" class="node node-match" cx="10" cy="120" fill= "#E1BC25"> </circle>
+    <circle r="0.8071106014" class="node node-match" cx="20" cy="120" fill= "#E1BC25"> </circle>
+    <circle r="0.7952120451" class="node node-match" cx="30" cy="120" fill= "#E1BC25"> </circle>
+          <!-- Bolivia -->
+    <circle r="0.7689222905" class="node node-match" cx="40" cy="120" fill= "#E1BC25"> </circle>
+    <circle r="0.7576567269" class="node node-match" cx="50" cy="120" fill= "#E1BC25"> </circle>
+    <circle r="0.7340437602" class="node node-match" cx="60" cy="120" fill= "#E1BC25"> </circle>
+    <circle r="0.7312534892" class="node node-match" cx="70" cy="120" fill= "#E1BC25"> </circle>
+    <circle r="0.6903815882" class="node node-match" cx="80" cy="120" fill= "#E1BC25"> </circle>
+          <!-- Zimbabwe -->
+    <circle r="0.6861982919" class="node node-match" cx="90" cy="120" fill= "#E1BC25"> </circle>
+    <circle r="0.6601447131" class="node node-match" cx="100" cy="120" fill= "#E1BC25"> </circle>
+    <circle r="0.6546886033" class="node node-match" cx="110" cy="120" fill= "#E1BC25"> </circle>
+    <circle r="0.6234691616" class="node node-match" cx="120" cy="120" fill= "#E1BC25"> </circle>
+    <circle r="0.6155571194" class="node node-match" cx="130" cy="120" fill= "#E1BC25"> </circle>
+          <!-- Serbia -->
+    <circle r="0.6139384074" class="node node-match" cx="140" cy="120" fill= "#E1BC25"> </circle>
+    <circle r="0.608745558" class="node node-match" cx="150" cy="120" fill= "#E1BC25"> </circle>
+    <circle r="0.6086964851" class="node node-match" cx="160" cy="120" fill= "#E1BC25"> </circle>
+    <circle r="0.5166639178" class="node node-match" cx="170" cy="120" fill= "#E1BC25"> </circle>
+    <circle r="0.5134724034" class="node node-match" cx="10" cy="130" fill= "#E1BC25"> </circle>
+          <!-- Kuwait -->
+    <circle r="0.5108040913" class="node node-match" cx="20" cy="130" fill= "#E1BC25"> </circle>
+    <circle r="0.5055806802" class="node node-match" cx="30" cy="130" fill= "#E1BC25"> </circle>
+    <circle r="0.5015218163" class="node node-match" cx="40" cy="130" fill= "#E1BC25"> </circle>
+    <circle r="0.4997024856" class="node node-match" cx="50" cy="130" fill= "#32A500 "> </circle>
+    <circle r="0.4925437042" class="node node-match" cx="60" cy="130" fill= "#32A500 "> </circle>
+          <!-- Kenya -->
+    <circle r="0.4880009579" class="node node-match" cx="70" cy="130" fill= "#32A500"> </circle>
+    <circle r="0.4879909201" class="node node-match" cx="80" cy="130" fill= "#32A500"> </circle>
+    <circle r="0.4763762566" class="node node-match" cx="90" cy="130" fill= "#32A500"> </circle>
+    <circle r="0.4478497008" class="node node-match" cx="100" cy="130" fill= "#32A500"> </circle>
+    <circle r="0.4448923167" class="node node-match" cx="110" cy="130" fill= "#32A500"> </circle>
+          <!-- Luxembourg -->
+    <circle r="0.4232403201" class="node node-match" cx="120" cy="130" fill= "#32A500"> </circle>
+    <circle r="0.4158863858" class="node node-match" cx="130" cy="130" fill= "#32A500"> </circle>
+    <circle r="0.4000113518" class="node node-match" cx="140" cy="130" fill= "#32A500"> </circle>
+    <circle r="0.3716924458" class="node node-match" cx="150" cy="130" fill= "#32A500"> </circle>
+    <circle r="0.367606582" class="node node-match" cx="160" cy="130" fill= "#32A500"> </circle>
+          <!-- Armenia -->
+    <circle r="0.3650924772" class="node node-match" cx="170" cy="130" fill= "#32A500"> </circle>
+    <circle r="0.3592141092" class="node node-match" cx="10" cy="140" fill= "#32A500"> </circle>
+    <circle r="0.350275121" class="node node-match" cx="20" cy="140" fill= "#32A500"> </circle>
+    <circle r="0.3320632412" class="node node-match" cx="30" cy="140" fill= "#32A500"> </circle>
+    <circle r="0.3302034131" class="node node-match" cx="40" cy="140" fill= "#32A500"> </circle>
+          <!-- Slovenia -->
+    <circle r="0.3265244988" class="node node-match" cx="50" cy="140" fill= "#32A500"> </circle>
+    <circle r="0.3254914817" class="node node-match" cx="60" cy="140" fill= "#32A500"> </circle>
+    <circle r="0.3218802813" class="node node-match" cx="70" cy="140" fill= "#32A500"> </circle>
+    <circle r="0.308812752" class="node node-match" cx="80" cy="140" fill= "#32A500"> </circle>
+    <circle r="0.3078856742" class="node node-match" cx="90" cy="140" fill= "#32A500"> </circle>
+          <!-- Tanzania -->
+    <circle r="0.3000979953" class="node node-match" cx="100" cy="140" fill= "#32A500"> </circle>
+    <circle r="0.2951102529" class="node node-match" cx="110" cy="140" fill= "#32A500"> </circle>
+    <circle r="0.2688312625" class="node node-match" cx="120" cy="140" fill= "#32A500"> </circle>
+    <circle r="0.2630417556" class="node node-match" cx="130" cy="140" fill= "#32A500"> </circle>
+    <circle r="0.2588232009" class="node node-match" cx="140" cy="140" fill= "#32A500"> </circle>
+          <!-- Iceland -->
+    <circle r="0.2265805095" class="node node-match" cx="150" cy="140" fill= "#32A500"> </circle>
+    <circle r="0.1916154863" class="node node-match" cx="160" cy="140" fill= "#32A500"> </circle>
+    <circle r="0.1856061359" class="node node-match" cx="170" cy="140" fill= "#32A500"> </circle>
+    <circle r="0.1776554709" class="node node-match" cx="10" cy="150" fill= "#32A500"> </circle>
+    <circle r="0.1702949447" class="node node-match" cx="20" cy="150" fill= "#32A500"> </circle>
+          <!-- Comoros -->
+    <circle r="0.1285645241" class="node node-match" cx="30" cy="150" fill= "#32A500"> </circle>
+
+             <g text-anchor="start"><text x="10" y="80" class="state-annotation">2019</text></g>
+      </div>
+  
+</html> 
