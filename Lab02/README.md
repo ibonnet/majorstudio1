@@ -21,3 +21,6 @@ The paragraph should include:
 - Which visualization method is used and why?
 
 Please bring these items to class in physical form, either hand-drawn or printed, so we can pin them on the wall and review them together again. In addition, research and find 1-3 Inspirational examples of successful qualitative visualizations that you especially like and post them on slack. Write briefly why you think your examples are relevant and a good inspiration. </i>
+
+
+<img src="https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02A-ConceptSketches/02A-Images/02-FORCEDEVICTIONS.png" height="220">
