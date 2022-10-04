@@ -35,6 +35,8 @@ As we slide through this, we can see new locations where neighborhoods have been
 
 As we scroll down, the image before house destructions will be replaced by the image of the aftermath from the same geolocation. House demolitions can be seen through satellite imagery.
 
+<img src="https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02A-ConceptSketches/02A-Images/20142019AbidjanGranBassam.png" height="300">
+
 ### Timeline of house destructions
 
 The main targets are local markets and marginalized neighborhoods. Though some recent house destructions were done to build new projects such as a metro and two bridges, the reason for demolishing most households remains unknown. According to the UNHRW, “forced evictions are a gross violation of human rights, in particular the right to adequate housing” (Resolution 1993/77).
