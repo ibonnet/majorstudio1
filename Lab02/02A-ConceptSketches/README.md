@@ -23,6 +23,14 @@ in Cote d’Ivoire. But since he first took power in 2011, there has been an inc
 
 As we slide through this, we can see new locations where neighborhoods have been razed to the ground over time. Each dot represents a house demolition that has been identified using open-source investigation tools.
 
+<img src="https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02A-ConceptSketches/02A-Images/2011Abidjan.png" height="220">
+<img src="https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02A-ConceptSketches/02A-Images/2012Abidjan.png" height="220">
+<img src="https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02A-ConceptSketches/02A-Images/2015Abidjan.png" height="220">
+<img src="https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02A-ConceptSketches/02A-Images/2016Abidjan.png" height="220">
+<img src="https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02A-ConceptSketches/02A-Images/2018Abidjan.png" height="220">
+<img src="https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02A-ConceptSketches/02A-Images/2020Abidjan.png" height="220">
+<img src="https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02A-ConceptSketches/02A-Images/2021Abidjan.png" height="220">
+
 ### Satellite imagery of house destructions
 
 As we scroll down, the image before house destructions will be replaced by the image of the aftermath from the same geolocation. House demolitions can be seen through satellite imagery.
