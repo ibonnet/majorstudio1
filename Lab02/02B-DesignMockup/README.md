@@ -43,5 +43,5 @@ I will be using the code from <a href="https://ekenes.github.io/mexico-census-20
 
 ### Interactive map
 
-I will be using the code from <a href="https://ekenes.github.io/national-park-visits/?viewType=all&variable=percent-change&year=1949">this website</a>, which can be found <a href="https://github.com/ibonnet/majorstudio1/blob/c59466de0bb77c8a054abfa0401d041e6abc68b2/Lab02/02B-DesignMockup/Codes/SwipeWidget">here</a>.
+I will be using the code from <a href="https://ekenes.github.io/national-park-visits/?viewType=all&variable=percent-change&year=1949">this website</a>, which can be found <a href="https://github.com/ibonnet/majorstudio1/tree/main/Lab02/02B-DesignMockup/Codes">here</a>.
 
