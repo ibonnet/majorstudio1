@@ -20,7 +20,7 @@ Two satellite images overlap and we can swipe from left to right to see the befo
 
 I will add an interactive map where we can see the dots appearing depending on the year.
 
-<iframe width="439" height="401" src="https://www.youtube.com/embed/2UPA9_f8rGw" title="Map Abidjan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/embed/2UPA9_f8rGw)
 
 ## Code Prototype
 
