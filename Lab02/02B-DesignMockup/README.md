@@ -23,6 +23,8 @@ Two satellite images overlap and we can swipe from left to right to see the befo
 
 I will add an interactive map where we can see the dots appearing depending on the year.
 
+You can find the data that will be used for this assignment <a href="https://docs.google.com/spreadsheets/d/1AWqREVcLbGTC_YijxaD1lFxYdF9L3hVRwTQoXR3EN0Y/edit?usp=sharing">here</a>.
+
 [![VIDEO-SCREENSHOT](https://github.com/ibonnet/majorstudio1/blob/c440531158dcc8dd46a6a14cfc63c723f232f63e/Lab02/02B-DesignMockup/Images/YoutubeVideo.png) ](https://www.youtube.com/embed/2UPA9_f8rGw)
 
 ## Code Prototype
