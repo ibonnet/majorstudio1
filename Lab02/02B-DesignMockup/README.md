@@ -1,6 +1,6 @@
 # Design mockup and code prototype
 
-<i><b>Goals:</b> After the first design review, decide for one of the concepts for this assignment. You now have two parallel work streams: Design and code. For this assignment create a prototype for both:
+<i><b>Goals:</b> After the first design review, decide for one of the concepts for this assignment. You now have two parallel work streams: Design and code. For this assignment create a prototype for both:</i>
 
 ## Design mockup
 
