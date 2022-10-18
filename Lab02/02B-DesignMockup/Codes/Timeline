@@ -19,3 +19,21 @@
       <p>First house demolitions.
     </div>
 </div>
+
+element.style {
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
