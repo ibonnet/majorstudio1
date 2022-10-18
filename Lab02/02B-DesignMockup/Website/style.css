@@ -1,0 +1,55 @@
+<!DOCTYPE CSS>
+
+<style>
+  h1  {
+    color: #000;
+    font-size: 11;
+    margin-bottom: .3em;
+    text-align: center;
+    text-decoration: underline;
+    font: arial;
+  }
+  
+  
+  th {
+    padding: .2em;
+  }
+  
+  td {
+    background-color: #ffc;
+    border: 1px solid #900;
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+  
+  #trHeader {
+    color: #900;
+    text-decoration: underline;
+  }
+  
+  .centerCell {
+    text-align: center;
+  }
+</style>
+
+.container {
+    position: relative;
+    width: 900px;
+    height: 600px;
+    border: 2px solid white;
+    .img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: 900px 100%;
+    }
+    .background-img {
+      background-image: url('/Users/isabelbonnet/Documents/GitHub/majorstudio1/Lab02/02B-DesignMockup/Images/SatelliteImagery/GrandBassam4k-2010.jpg');
+    }
+    .foreground-img {
+      background-image: url('/Users/isabelbonnet/Documents/GitHub/majorstudio1/Lab02/02B-DesignMockup/Images/SatelliteImagery/GrandBassam4k-2022.jpg');
+      width: 50%;
+    }
+  }
