@@ -27,7 +27,7 @@ Please bring these items to class in physical form, either hand-drawn or printed
 
 ## 02B: Design mockup and prototype
 
-<i><b>Goals:</b> After the first design review, decide for one of the concepts for this assignment. You now have two parallel work streams: Design and code. For this assignment create a prototype for both:
+<i><b>Goals:</b> After the first design review, decide for one of the concepts for this assignment. You now have two parallel work streams: Design and code. For this assignment create a prototype for both:</i>
 
 ### Design mockup
 
@@ -40,6 +40,9 @@ Carefully consider colors, scale, composition and typography. Be able to answer 
 
 <i><b>Goals:</b> Gather all the data you want to use or build a system to query it using the api
 Make sure the data is structured in the right way for your visualization. Build a prototype that loads the data and displays it visually on the screen. Imagine a plan to get to your high fidelity mockup in code </i>
+
+### Process
+<b><a href="https://github.com/ibonnet/majorstudio1/tree/main/Lab02/02B-DesignMockup">You can see the entire process here.</a></b>
 
 ## 02C: Second iteration of design and prototype
   
