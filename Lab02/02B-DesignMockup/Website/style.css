@@ -1,55 +1,60 @@
 <!DOCTYPE CSS>
-
-<style>
-  h1  {
-    color: #000;
-    font-size: 11;
-    margin-bottom: .3em;
-    text-align: center;
-    text-decoration: underline;
-    font: arial;
-  }
-  
-  
-  th {
-    padding: .2em;
-  }
-  
-  td {
-    background-color: #ffc;
-    border: 1px solid #900;
-    padding-left: .5em;
-    padding-right: .5em;
-  }
-  
-  #trHeader {
-    color: #900;
-    text-decoration: underline;
-  }
-  
-  .centerCell {
-    text-align: center;
-  }
-
-.container {
+element.style {
+}
+#scrolly {
     position: relative;
-    width: 900px;
-    height: 600px;
-    border: 2px solid white;
-    .img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-size: 900px 100%;
-    }
-    .background-img {
-      background-image: url('/Users/isabelbonnet/Documents/GitHub/majorstudio1/Lab02/02B-DesignMockup/Images/SatelliteImagery/GrandBassam4k-2010.jpg');
-    }
-    .foreground-img {
-      background-image: url('/Users/isabelbonnet/Documents/GitHub/majorstudio1/Lab02/02B-DesignMockup/Images/SatelliteImagery/GrandBassam4k-2022.jpg');
-      width: 50%;
-    }
-  }
-</style>
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2rem;
+}
+
+section {
+  display: block;
+}
+body {
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; Times New Roman */
+  font-family: Arial, sans-serif;
+  color: #2C1209;
+  font-weight: 300;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: 1px;
+  margin-top: 1px;
+  background-color: #f3f3f3;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Times New Roman", serif;
+  font-size: 40px;
+  font-weight: 200;
+  color: #000000;
+  border-spacing: 0pc;
+}
+
+title {
+  font-family: "Times New Roman",
+  font-size: 20px;
+  font-weight: 250;
+  color: #000000;
+}
+
+header {
+  font-family: "Times New Roman", serif;
+  font-size: 15px;
+  font-weight: 250;
+  color: #000000;
+}
+
+footer {
+  font-family: "Times New Roman", serif;
+  font-size: 10px;
+  font-weight: 250;
+  color: #000000;
+}
+
+.navigation  {
+  position: fixed;
+}
