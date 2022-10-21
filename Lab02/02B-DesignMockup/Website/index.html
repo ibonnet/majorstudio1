@@ -5,148 +5,183 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="styles.css">
-  </head>
+    <link rel="stylesheet" href="styles.css"> 
+    </head>
 
   <body>
     <link rel="stylesheet" href="style.css">
-
-        <nav>
-            <ul class="navigation">
-                <div>
-                    <a href="https://github.com/ibonnet/majorstudio1/tree/main/Lab02/02B-DesignMockup">Repositories</a>
-                </div>
-            </ul>
-        </nav>
     <!---- <title>House destructions in Abidjan</title> -->
     <header>
-      <div class="Title"><i>Lab02: Major Studio 1</i></div> 
+      <nav class="navigation">
+            <div>
+                <a href="https://github.com/ibonnet/majorstudio1/tree/main/Lab02/02B-DesignMockup">Repositories</a>
+            </div>
+    </nav>
+    <div class="HeaderTitle"><i>Lab 02: Major Studio 1</i></div> 
     </header>
-
     <main>
-
-      <div>
-        <img id= "Poster" height="400" src="https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579122975149-ETABORG21RXNLNUW63H4/_P3A3941.jpg?format=2500w">
-      </div>
-
-      <div>
-        <p><h2>Forced evictions and house destructions in Côte d'Ivoire</h2> </p>
+<!-- Headline, poster image and lede -->
+        <section class="Text1" id="Intro">
+        <div id="MainTitle">
+            <p><h1>Forced evictions and house destructions in Côte d'Ivoire</h1></p>
+        </div>
+        <div>
+            <p style="text-align:center";><img class="poster" src="https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579122975149-ETABORG21RXNLNUW63H4/_P3A3941.jpg?format=2500w"; height="600"></p>
+        </div>
+        <p id="lede">Despite positioning itself as one of the leading economies in West Africa, Cote d'Ivoire's urbanization plans do not always benefit the poorest populations. Over the past decade, the country has experienced an increase in number and frequency of house destructions.</p>
+        <p id="byline">BY ISABEL BONNET</p>
+    </section>
+    <hr>
+<!-- First part of the article with graph -->
+    <div class="Text2" id="ArticlePart01">
+        <div class="spacer" style="height:10px;"></div>
         <p>Alassane Ouattara is the first president to govern after years of political instability and civil wars
             in Cote d’Ivoire. For the optimists, he will be remembered as the president who boosted the
             economy by building new infrastructures and for inviting Chinese and French companies to
             invest. But for some, destruction is all he represents.</p>
+        <p>The United Nations' SDG report for Côte d'Ivoire can be found <a href:"https://unstats.un.org/sdgs/dataportal/countryprofiles/civ">here.</a></p>
+    </div>
+<!-- SDG data here -->
+    <div id="SDG">
+        <script src="graph1.js"></script>
+    </div>
+    <div class="spacer" style="height:10px;"></div>
+<!-- Case study of forced evictions in the highway -->
+    <section class="Text2" id="ArticlePart02">
         <p><h3>Abidjan — Grand-Bassam highway</h3> </p>
         <p>This is a 4.2-mile highway that connects Abidjan, Côte d'Ivoire's economic capital, and Grand-Bassam, the country's second largest city.</p>
-      </div>
-
-
-<!-- https://pudding.cool/process/introducing-scrollama/
-
-scrolling through the timeline -->
-</section>
-
+    </section>
+<!-- Scrolly for the case study -->
+<!-- https://pudding.cool/process/introducing-scrollama/ link for more details-->
+<script src='https://unpkg.com/scrollama'></script>
+<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+<script src="scrollama.js"></script>
 <section id="scrolly">
-    <div>
-        <div class="spacer" style="height:100px;"></div>
-    
+    <!--  images  -->
+    <div class="scrollyimg">
+        <figure style="height: 308.5px; top: 102.833px;">
+            <div id="Bg-img-01" src="https://github.com/ibonnet/abidjan-forced-evictions/blob/main/images/GrandBassam4k-2010.jpg?raw=true"></div>
+            <div id="Bg-img-02" src="https://github.com/ibonnet/abidjan-forced-evictions/blob/main/images/GrandBassam4k-2014.jpg?raw=true"></div>
+            <div id="Bg-img-03" src="https://github.com/ibonnet/abidjan-forced-evictions/blob/main/images/GrandBassam4k-2019.jpg?raw=true"></div>
+            <div id="Bg-img-04" src="https://github.com/ibonnet/abidjan-forced-evictions/blob/main/images/GrandBassam4k-2022.jpg?raw=true"></div>
+        </figure>
+        <script href="scrollama.js"></script>
     </div>
-    <figure style="height: 308.5px; top: 102.833px;">
-        <div id="timeline-01">
-    </figure>
 
-    <article>
-        <div>
-            <div class="spacer" style="height:500px;"></div>
-        
-        </div>
-        <div class="step is-active" data-step="1" style="margin-top:175px;" data-scrollama-index="0">
+	<!--  step/text container  -->
+    <article class="scrollysteps">
+        <div class="step is-active" data-step="1" style="margin-top:175px;" data-scrollama-index="0" height="500">
             <p>2011</p>
-        </div>
-        <div>
-            <div class="spacer" style="height:500px;"></div>
-        
         </div>
         <div class="step" data-step="2" data-scrollama-index="1">
             <p>2015</p>
         </div>
-        <div>
-            <div class="spacer" style="height:500px;"></div>
-        
-        </div>
         <div class="step" id= "bulldozerstext" data-step="3" data-scrollama-index="2" style="font-size: 10px">
             <p>Bulldozers and caterpillars and started demolishing people's homes.</p>
-        </div>
-        <div>
-            <div class="spacer" style="height:500px;"></div>
-        
         </div>
         <div class="step" data-step="4" data-scrollama-index="5">
             <p>More than 4,000 houses were destroyed.</p>
         </div>
-        <div>
-            <div class="spacer" style="height:500px;"></div>
-        
-        </div>
         <div class="step" data-step="5" data-scrollama-index="6">
             <p>2019</p>
-        </div>
-        <div>
-            <div class="spacer" style="height:500px;"></div>
-        
         </div>
         <div class="step" data-step="6" data-scrollama-index="7">
             <p>22,000 people lost their home.</p>
         </div>
-        <div>
-            <div class="spacer" style="height:500px;"></div>
-        
-        </div>
         <div class="step" data-step="7" data-scrollama-index="8">
             <p>They never received any kind of compensation.</p>
-        </div>
-        <div>
-            <div class="spacer" style="height:500px;"></div>
-        
         </div>
         <div class="step" data-step="9" data-scrollama-index="10">
             <p>2022</p>
         </div>
-        <div>
-            <div class="spacer" style="height:600px;"></div>
-        
-        </div>
     </article>
 </section>
-
-<div>
-    <div class="spacer" style="height:200px;"></div>
-
-</div>
-
-<section id="BackgroundInfo" style="background-color: white; color: black; text-align: center;">
-<div><p>Abidjan has about 5 million inhabitants, but in 2019, the Minister of Construction, Housing and Urbanization announced that 1,2 million houses in 132 “precarious districts” would be demolished. This is roughly one fifth of the population being sentenced to homelessness.</p></div>
-
-<div>
-    <p>The main targets are local markets and marginalized neighborhoods. Though some recent house destructions were done to build new projects such as a metro and two bridges, the reason for demolishing most households remains unknown. Only a few have received some sort of compensation.</p>
-    <p>According to the UNHRW, “forced evictions are a gross violation of human rights, in particular the right to adequate housing” (Resolution 1993/77). Because the guidelines on forced evictions remain the only written rules and regulations, there is no national policy preventing these governments from violating international human law during forced evictions.</p>
-</div>
-
-<div>
-    <div class="spacer" style="height:200px;"></div>
-
-</div>
-
+<!-- SVG of forced evictions over the years -->
+<section id="dotsforcedevictions">
+    <hr>
+    <div>
+        <svg viewBox="-10,0,120,100" width="50%">
+          <circle class="circle2011" r="5" cx="10" cy="90" fill=#3E5928> </circle>
+          <circle class="circle2012" r="5" cx="20" cy="90" fill=#4F5B4F> </circle>
+          <circle class="circle2013" r="5" cx="30" cy="90" fill=#5A6B59> </circle>
+          <circle class="circle2013" r="5" cx="30" cy="80" fill=#5A6B59> </circle>
+          <circle class="circle2014" r="5" cx="40" cy="90" fill=#4D604C> </circle>
+          <circle class="circle2014" r="5" cx="40" cy="80" fill=#4D604C> </circle>
+          <circle class="circle2015" r="5" cx="50" cy="90" fill=#907D6C> </circle>
+          <circle class="circle2015" r="5" cx="50" cy="80" fill=#907D6C> </circle>
+          <circle class="circle2015" r="5" cx="50" cy="70" fill=#907D6C> </circle>
+          <circle class="circle2015" r="5" cx="50" cy="60" fill=#907D6C> </circle>
+          <circle class="circle2015" r="5" cx="50" cy="50" fill=#907D6C> </circle>
+          <circle class="circle2015" r="5" cx="50" cy="40" fill=#907D6C> </circle>
+          <circle class="circle2015" r="5" cx="50" cy="30" fill=#907D6C> </circle>
+          <circle class="circle2016" r="5" cx="60" cy="90" fill=#8c7153> </circle>
+          <circle class="circle2016" r="5" cx="60" cy="80" fill=#8c7153> </circle>
+          <circle class="circle2016" r="5" cx="60" cy="70" fill=#8c7153> </circle>
+          <circle class="circle2017" r="5" cx="70" cy="90" fill=#a3987f> </circle>
+          <circle class="circle2017" r="5" cx="70" cy="80" fill=#a3987f> </circle>
+          <circle class="circle2017" r="5" cx="70" cy="70" fill=#a3987f> </circle>
+          <circle class="circle2017" r="5" cx="70" cy="60" fill=#a3987f> </circle>
+          <circle class="circle2017" r="5" cx="70" cy="50" fill=#a3987f> </circle>
+          <circle class="circle2017" r="5" cx="70" cy="40" fill=#a3987f> </circle>
+          <circle class="circle2018" r="5" cx="80" cy="90" fill=#909c79> </circle>
+          <circle class="circle2018" r="5" cx="80" cy="80" fill=#909c79> </circle>
+          <circle class="circle2018" r="5" cx="80" cy="70" fill=#909c79> </circle>
+          <circle class="circle2019" r="5" cx="90" cy="90" fill=#767557> </circle>
+          <circle class="circle2019" r="5" cx="90" cy="80" fill=#767557> </circle>
+          <circle class="circle2019" r="5" cx="90" cy="70" fill=#767557> </circle>
+          <circle class="circle2019" r="5" cx="90" cy="60" fill=#767557> </circle>
+          <circle class="circle2020" r="5" cx="100" cy="90" fill=#918667> </circle>
+          <circle class="circle2020" r="5" cx="100" cy="80" fill=#918667> </circle>
+          <circle class="circle2020" r="5" cx="100" cy="70" fill=#918667> </circle>
+          <circle class="circle2020" r="5" cx="100" cy="60" fill=#918667> </circle>
+          <text x="6" y="98" font-size=3.5px>2011</text>
+          <text x="16" y="98" font-size=3.5px>2012</text>
+          <text x="26" y="98" font-size=3.5px>2013</text>
+          <text x="36" y="98" font-size=3.5px>2014</text>
+          <text x="46" y="98" font-size=3.5px>2015</text>
+          <text x="56" y="98" font-size=3.5px>2016</text>
+          <text x="66" y="98" font-size=3.5px>2017</text>
+          <text x="76" y="98" font-size=3.5px>2018</text>
+          <text x="86" y="98" font-size=3.5px>2019</text>
+          <text x="96" y="98" font-size=3.5px>2020</text>
+    </svg></div>
+    </section>
+<!-- Map of forced evictions in Abidjan -->
+<section id="PrecariousDistricts">
+    <div style="height:60px;"></div>
+    <div class="Text1"><p>Abidjan has about 5 million inhabitants, but in 2019, the Minister of Construction, Housing and Urbanization announced that 1,2 million houses in 132 “precarious districts” would be demolished. This is roughly one fifth of the population being sentenced to homelessness.</p></div>
+    <div style="height:30px;"></div>
+    <div class="Text1"><p>The main targets are local markets and marginalized neighborhoods. Though some recent house destructions were done to build new projects such as a metro and two bridges, the reason for demolishing most households remains unknown.</p></div>
+    <div style="height:60px;"></div>
 </section>
+<section>
+    <div class="bg-image">
+        <div class="background-image img1" style="height:800px;"></div>
+        <div class="background-image img2" style="height:800px;"></div>
+        <div class="background-image img3" style="height:800px;"></div>
+        <div class="background-image img4" style="height:800px;"></div>
+    </div>
+<div class="bg-text">
+    <p>Only a few received some sort of compensation.</p>
+</div>
+</section>
+<section ID="Map">
+    <script src="map.js"></script>
+</section>
+<section class="Text2" id="ArticlePart03">
+    <div style="height:150px;"></div>
+    <p>According to the UNHRW, “forced evictions are a gross violation of human rights, in particular the right to adequate housing” (Resolution 1993/77). Because the guidelines on forced evictions remain the only written rules and regulations, there is no national policy preventing these governments from violating international human law during forced evictions.</p>
+    <div style="height:60px;"></div>
+</section>
+<div class="spacer" style="height:200px;"></div>
 
 </main>
 
-    
 <footer>
     © Copyright 2022. All Rights Reserved
     <a href="parsons.nyc" target="_blank" title="parsons">parsons.nyc</a>
 </footer>
 
-    
   </body>
 
 </html>
