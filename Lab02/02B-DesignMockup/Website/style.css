@@ -1,4 +1,130 @@
+nav  {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  position: left;
+  height: 50px;
+}
+
+.HeaderTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  height: 20px;
+}
+
+header {
+  font-weight: 100;
+  padding: 1rem;
+  color: #ffff;
+  background-color: #000000;
+}
+
+#MainTitle {
+  margin-right: 150px;
+  margin-left: 200px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#byline {
+  font-size: 13px;
+  text-align: center;
+  color: #323232;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#lede {
+  font-size: 18px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 90px;
+  margin-left: 110px;
+}
+
+.Text1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 250px;
+  margin-left: 200px;
+}
+
+.Text2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  margin-left: 80px;
+}
+
+/* main text */
+
+body {
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; Times New Roman */
+  font-family: "Tiempos Text", Georgia, serif;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 300;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+/* titles */
+
+h1 {
+  font-family: "Tiempos Text", Georgia, serif;
+  font-size: 30px;
+  font-style: bold;
+  color:  #000000;
+  background-color: #ffffff
+}
+
+h2 {
+  font-family: "Tiempos Text", Georgia, serif;
+  font-size: 25px;
+  font-style: bold;
+  font-weight: 200;
+  color:  #000000;
+  background-color: #ffffff
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  color:  #000000;
+  background-color: #ffff
+}
+
+title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 250;
+  color: #ffff;
+}
+
+footer {
+  font-family: "Tiempos Text", Georgia, serif;
+  font-size: 12px;
+  font-weight: 250;
+  color: #000000;
+}
+
+#PrecariousDistricts {
+  background-color: #ffffff;
+  color: #000000;
+  margin-top: 10px;
+}
+
+section {
+  display: block;
+}
+
 element.style 
+
+/* scrollama css */
 
 #scrolly {
     position: relative;
@@ -9,41 +135,70 @@ element.style
     width: 33%;
 }
 
-article {
+#scrolly figure {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  pointer-events: none;
+}
+
+.scrollyimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  width: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.scrollyimg.is-fixed {
+  position: fixed;
+}
+
+.scrollyimg.is-bottom {
+  bottom: 0;
+  top: auto;
+}
+
+.scrollysteps {
   position: relative;
   padding: 0 1rem;
   margin: 0 auto;
   width: 33%;
 }
-
-section {
-  display: block;
-}
-body {
-  /* font-family: Avenir, Helvetica, Arial, sans-serif; Times New Roman */
-  font-family: Arial, sans-serif;
-  font-size: 15px;
-  color: #ffffff;
-  font-weight: 300;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  margin-left: 1px;
-  margin-top: 1px;
-  background-color: #000000;
-  width: 80%;
-}
-
 .step {
-  margin: 2rem auto 4rem auto;
-  background-color: #ffff;
+  margin: .5rem auto 2rem auto;
+  background-color: rgb(255, 255, 255); /* Fallback color */
+  background-color: rgba(255, 255, 255, 0.894); /* Black w/opacity/see-through */
   color: #000000;
+  border: solid;
+  border-style: line;
+  border-color: #000000;
+  border-width: 1px;
 }
 
 .step.is-active {
-  background-color: rgb(0, 0, 0);
-  color:  #ffffff;
+  opacity: .5;
 }
+
+.step.is-inactive {
+  opacity: 0;
+}
+
+/*
+#step.is-active:hover {
+  transition: ;
+}
+*/
 
 .step p {
   text-align: center;
@@ -51,48 +206,73 @@ body {
   font-size: 1.5rem;
 }
 
-h2 {
-  font-family: "Times New Roman", serif;
-  font-size: 40px;
-  font-weight: 200;
-  color:  #ffffff;
-  background-color: rgb(0, 0, 0)
-}
-
-title {
-  font-family: "Times New Roman", serif;
-  font-size: 20px;
-  font-weight: 250;
-  color: #000000;
-}
-
-header {
-  font-family: arial, sans-serif;
-  font-size: 17px;
-  font-weight: 100;
-  padding: 1rem;
-  text-align: center;
-  color: #ffffff;
-}
-
-footer {
-  font-family: "Times New Roman", serif;
-  font-size: 12px;
-  font-weight: 250;
-  color: #ffff;
-}
-
-.navigation  {
-  color: #ffffff;
-  font-family: arial, sans-serif;
-  font-size: 15px;
-  padding: 2rem
-}
-
 .bulldozerstext {
   font-size: 10px;
 }
 
-img {
+.poster {
   position: center;
 }
+
+/* images */
+
+.bg-image {
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image*/
+  background-position: center;
+  background-size: auto;
+}
+
+/* Images used */
+.img1 { 
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579123876436-UHGZGLJ9ADYDPCGCP6LY/_P3A4145.jpg?format=1000w"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img2 { 
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579124933121-K89Q833MUOHPFUJXCDY0/_P3A4112.jpg?format=1000w"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.img3 { 
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579123765370-KH2DQA0Q8FRRXY1LG1BB/_P3A4139.jpg?format=1000w"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img4 { 
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579123604918-PXCIWCYXS6IB7F4Z5BMO/_P3A4129.jpg?format=1000w"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(255, 255, 255); /* Fallback color */
+  background-color: rgba(255, 255, 255, 0.894); /* Black w/opacity/see-through */
+  border: solid;
+  border-style: line;
+  border-color: #000000;
+  border-width: 1px;
+  color: rgb(0, 0, 0);
+  font-style: bold;
+  font-size: 30px;
+  position: fixed; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 800px;
+  padding: 1px;
+  text-align: center;
+}
+
+/* easing transition svg but in js
+svg.transition()
+.duration(650)
+.delay(100)
+.ease()
+.style('opacity', 1) */
