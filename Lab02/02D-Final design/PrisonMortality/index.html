@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    
+    <style>
+    html {
+        margin: 0 auto;
+        width: 100%;
+    }
+        
+    main {
+      /* font-family: Avenir, Helvetica, Arial, sans-serif; Times New Roman */
+      font-family: "Tiempos Text", Georgia, serif;
+      font-size: 16px;
+      color: #000000;
+      font-weight: 300;
+      font-style: normal;
+      background-color: #ffffff;
+      margin: 20px;
+    }
+    
+    header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 3px;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .intro {
+        text-align: center;
+    }
+    
+    #poster {
+        width: 700px;
+        
+    }
+    
+    #lede {
+        font-family: arial;
+        font-size: 14px;
+    }
+    
+    #byline {
+        font-family: arial;
+        font-size: 12px;
+        font-style: italic;
+    }
+    
+    footer {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color: #000000;
+      position: static;
+      padding:3px;
+        }
+
+    circle:hover {
+        opacity: .7;
+    }
+    
+    .deaths-prison-headline {
+        font-size: 14px;
+    }
+    
+    .spacer {
+        height: 80px;
+    }
+    
+    .box {
+        border: solid;
+        border-color: black;
+        border-width: 2px;
+        padding:10px;
+        width: 500px;
+        margin-left: 350px;
+    }
+
+    </style>
+    <body>
+    </head>
+
+    <!---- Navigation / Course Title -->
+    <header>
+        <div id="title"><i>Lab 01: Major Studio 1</i></div>
+    <!-- end #title -->
+    </header>
+
+    <main> 
+    <section class="intro">
+<p><h1>Prison Mortality</h1></p>
+<div><img id="poster" src="https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1631310191389-IE89QEZEYXVETF2N1GCQ/BOI20210607-2.jpg?format=2500w"><div>
+<p id="lede">Deaths by suicide is significantly higher among the incarcerated population than outside prison facilities.</p>
+<p id="byline">BY ISABEL BONNET</p>
+    </section>
+    
+<hr>
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+
+    <p class="box">Deaths by suicide is significantly higher among the incarcerated population than outside prison facilities.</p>
+    
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+    
+    <div id="us-deaths-2019">
+        <svg viewBox="20,72,190,85">
+          <!-- Saint Vincent and the Grenadines -->
+    <g><circle id= "us-prison" r="37.3441357" class="node node-match" cx="70" cy="110" fill= "#911B02"></circle>
+    <g><circle id= "us-nationwide" r="0.3249077768" class="node node-match" cx="133" cy="110" fill= "#B52000"></circle>
+    <g text-anchor="start"><text x="65" y="108" style="font-size:16%;font-style:italic;">inside prison</text></g>
+    <g text-anchor="start"><text x="127" y="108" style="font-size:16%;font-style:italic;">nationwide</text></g>
+    <g text-anchor="start"><text x="165" y="150" style="font-size:20%;font-style:italic" class="deaths-prison-headline">US deaths by suicide in 2019</text></g>
+    </div>
+    </section>
+    
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+
+<p>
+    Dante Taylor would spend up to $20 a day to call his mother, Darlene McDay, several times a day. But these phone calls stopped when he was placed in keeplock. People who are in keeplock spend 23 hours a day locked in their cell.
+</p>
+
+<p>
+    Three months later, McDay's phone finally rang. It was a representative from the Wende Correctional Facility in New York. He had news: Earlier that night, Taylor had taken his own life.
+</p>
+
+<div class="spacer"></div>
+
+<section style="columns:2;text-align:center">
+<div><img style="width:500px" src="https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1631308167078-RBD1LCNC6Z1VCH39YDG4/BOI20210513-2.jpg?format=2500w"><div>
+<div><img style="width:500px" src="https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1631308133777-4XWIQHQITML2WJO3AZ37/BOI20210513.jpg?format=2500w"><div>
+</section>
+
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+    
+<p class="box">
+    In 2019, New York correctional facilities had reached their highest rate of suicides in nearly a decade. 
+</p>
+
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+
+<p>
+    The day before his death, McDay learned that he had been sent to the hospital for what prison records called self-inflicted injuries.
+</p>
+
+<p>
+    When he was sent back to the Wende Correctional Facility, Taylor asked for mental counseling. But, instead, he was sent to solitary confinement, supposedly for his own protection. He died hours later, on Oct. 6, 2017.
+</p>
+
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+
+<div style="columns:2;">
+<div><p>Inside prison facilities, deaths by suicide have been on the rise nationwide.</p></div>
+<!-- Create a div where the graph will take place -->
+<div id="usmortality"></div>
+<script type="text/javascript" src="usmortality.js"></script>
+</div>
+
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+
+<p class="box">The US has one of the highest rates of deaths by suicide inside prison facilities in the world.</p>
+
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+
+<section>
+        <p><i>This visualization shows the proportion of deaths by suicide within the incarcerated population around the world in 2019. Each dot represents a country and the size represents the numbers of deaths per 100,000 people.</i></p>
+<div class="spacer"></div>
+    <div id="suicide-prison-2019" style="width:100%">
+        <svg viewBox="5,80,170,95">
+    <g><circle id= "Saint Vincent and the Grenadines" r="3.73441357" class="node node-match" cx="10" cy="90" fill= "#911B02"></circle>
+    <g><circle id= "Dominica" r="3.606840463" class="node node-match" cx="20" cy="90" fill= "#B52000"></circle>
+    <g><circle id= "USA" r="3.150746088" class="node node-match" cx="30" cy="90" fill= "#B52000"> </circle>
+    
+    <rect x="26" y="86" width="8" height="8" stroke="black" stroke-width=".2" fill="none" />
+    
+    <circle id= "Thailand" r="2.816866979" class="node node-match" cx="40" cy="90" fill= "#BD3900"> </circle>
+    <circle id= "Antigua and Barbuda" r="2.682386861" class="node node-match" cx="50" cy="90" fill= "#BD3900"> </circle>
+    <circle id= "Belize" r="2.646336246" class="node node-match" cx="60" cy="90" fill= "#BD3900"> </circle>
+    <circle id= "Palau" r="2.610966057" class="node node-match" cx="70" cy="90" fill= "#CF4103"> </circle>
+    <circle id= "Panama" r="2.138261697" class="node node-match" cx="80" cy="90" fill= "#CF4103"> </circle>
+    <circle id= "Bahamas" r="2.041151672" class="node node-match" cx="90" cy="90" fill= "#DB571E"> </circle>
+    <circle id= "Grenada" r="1.941929608" class="node node-match" cx="100" cy="90" fill= "#DB571E"> </circle>
+    <circle id= "Russia" r="1.795845214" class="node node-match" cx="110" cy="90" fill= "#DB571E"> </circle>
+    <circle id= "Brazil" r="1.789328883" class="node node-match" cx="120" cy="90" fill= "#DB571E"> </circle>
+    <circle id= "China" r="1.752883841" class="node node-match" cx="130" cy="90" fill= "#DB571E"> </circle>
+    <circle id= "Turkey" r="1.747257421" class="node node-match" cx="140" cy="90" fill= "#DB571E"> </circle>
+    <circle id= "Costa Rica" r="1.64624063" class="node node-match" cx="150" cy="90" fill= "#DB571E"> </circle>
+    <circle id= "Puerto Rico" r="1.528258637" class="node node-match" cx="160" cy="90" fill= "#DB571E"> </circle>
+    <circle id="Barbados" r="1.522536679" class="node node-match" cx="170" cy="90" fill= "#DB7F1E"> </circle>
+    <circle id="Peru" r="1.501747345" class="node node-match" cx="10" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id="Saint Lucia" r="1.405946552" class="node node-match" cx="20" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id= "Bermuda" r="1.399820823" class="node node-match" cx="30" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id="South Africa" r="1.390708847" class="node node-match" cx="40" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id="Guyana" r="1.299862668" class="node node-match" cx="50" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id="Bhutan" r="1.28031409" class="node node-match" cx="60" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id="Dominican Republic" r="1.267069046" class="node node-match" cx="70" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id= "Colombia" r="1.229671929" class="node node-match" cx="80" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id="Chile" r="1.220396649" class="node node-match" cx="90" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id="Georgia" r="1.218486365" class="node node-match" cx="100" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id="Morocco" r="1.18425853" class="node node-match" cx="110" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id="Ecuador" r="1.145038146" class="node node-match" cx="120" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id= "Suriname" r="1.143003597" class="node node-match" cx="130" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id="Iran" r="1.139736618" class="node node-match" cx="140" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id="Argentina" r="1.134764047" class="node node-match" cx="150" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id="Lithuania" r="1.112105205" class="node node-match" cx="160" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id="Paraguay" r="1.108715436" class="node node-match" cx="170" cy="100" fill= "#DB7F1E"> </circle>
+    <circle id= "Azerbaijan" r="1.04361995" class="node node-match" cx="10" cy="110" fill= "#DB7F1E"> </circle>
+    <circle id="Malaysia" r="1.035765839" class="node node-match" cx="20" cy="110" fill= "#DB7F1E"> </circle>
+    <circle id="Singapore" r="1.022424071" class="node node-match" cx="30" cy="110" fill= "#DB7F1E"> </circle>
+    <circle id="New Zealand" r="1.021939502" class="node node-match" cx="40" cy="110" fill= "#E1BC25"> </circle>
+    <circle id="Philippines" r="0.9942966957" class="node node-match" cx="50" cy="110" fill= "#E1BC25"> </circle>
+    <circle id= "Jordan" r="0.9929024797" class="node node-match" cx="60" cy="110" fill= "#E1BC25"> </circle>
+    <circle id="Poland" r="0.9846448871" class="node node-match" cx="70" cy="110" fill= "#E1BC25"> </circle>
+    <circle id="Czechia" r="0.984543951" class="node node-match" cx="80" cy="110" fill= "#E1BC25"> </circle>
+    <circle id="Slovakia" r="0.9671043421" class="node node-match" cx="90" cy="110" fill= "#E1BC25"> </circle>
+    <circle id="Estonia" r="0.9380311078" class="node node-match" cx="100" cy="110" fill= "#E1BC25"> </circle>
+    
+    <circle id= "France" r="0.9321788071" class="node node-match" cx="110" cy="110" fill= "#E1BC25"> </circle>
+    <circle id="Latvia" r="0.8952452878" class="node node-match" cx="120" cy="110" fill= "#E1BC25"> </circle>
+    <circle id="Albania" r="0.8755904812" class="node node-match" cx="130" cy="110" fill= "#E1BC25"> </circle>
+    <circle id="Australia" r="0.8725876079" class="node node-match" cx="140" cy="110" fill= "#E1BC25"> </circle>
+    <circle id="Montenegro" r="0.867850978" class="node node-match" cx="150" cy="110" fill= "#E1BC25"> </circle>
+    
+    <circle id= "Hungary" r="0.860327858" class="node node-match" cx="160" cy="110" fill= "#E1BC25"> </circle>
+    <circle id="Malta" r="0.8560846729" class="node node-match" cx="170" cy="110" fill= "#E1BC25"> </circle>
+    <circle id="Moldova" r="0.8300237086" class="node node-match" cx="10" cy="120" fill= "#E1BC25"> </circle>
+    <circle id="Mongolia" r="0.8177873635" class="node node-match" cx="20" cy="120" fill= "#E1BC25"> </circle>
+    <circle id="Bolivia" r="0.7907512676" class="node node-match" cx="30" cy="120" fill= "#E1BC25"> </circle>
+    
+    <circle id= "Mexico" r="0.7791658853" class="node node-match" cx="40" cy="120" fill= "#E1BC25"> </circle>
+    <circle id="Algeria" r="0.7548825688" class="node node-match" cx="50" cy="120" fill= "#E1BC25"> </circle>
+    <circle id="Guatemala" r="0.7520130847" class="node node-match" cx="60" cy="120" fill= "#E1BC25"> </circle>
+    <circle id="Saudi Arabia" r="0.709980869" class="node node-match" cx="70" cy="120" fill= "#E1BC25"> </circle>
+    <circle id="Zimbabwe" r="0.7056788128" class="node node-match" cx="80" cy="120" fill= "#E1BC25"> </circle>
+    
+    <circle id= "Bosnia and Herzegovina" r="0.6788855976" class="node node-match" cx="90" cy="120" fill= "#E1BC25"> </circle>
+    <circle id="Jamaica" r="0.6732745939" class="node node-match" cx="100" cy="120" fill= "#E1BC25"> </circle>
+    <circle id="Vietnam" r="0.6411688619" class="node node-match" cx="110" cy="120" fill= "#E1BC25"> </circle>
+    <circle id="Portugal" r="0.6330322042" class="node node-match" cx="120" cy="120" fill= "#E1BC25"> </circle>
+    <circle id="Serbia" r="0.6313675386" class="node node-match" cx="130" cy="120" fill= "#E1BC25"> </circle>
+    
+    <circle id="Spain" r="0.6260272691" class="node node-match" cx="140" cy="120" fill= "#E1BC25"> </circle>
+    <circle id="Ukraine" r="0.6259768031" class="node node-match" cx="150" cy="120" fill= "#E1BC25"> </circle>
+    <circle id="Romania" r="0.5313315181" class="node node-match" cx="160" cy="120" fill= "#E1BC25"> </circle>
+    <circle id="South Korea" r="0.5280493996" class="node node-match" cx="170" cy="120" fill= "#E1BC25"> </circle>
+    <circle id="Kuwait" r="0.5253053367" class="node node-match" cx="10" cy="130" fill= "#E1BC25"> </circle>
+    
+    <circle id= "Greece" r="0.5199336379" class="node node-match" cx="20" cy="130" fill= "#E1BC25"> </circle>
+    <circle id="Canada" r="0.5157595467" class="node node-match" cx="30" cy="130" fill= "#E1BC25"> </circle>
+    <circle id="Italy" r="0.5138885668" class="node node-match" cx="40" cy="130" fill= "#E1BC25"> </circle>
+    <circle id="Austria" r="0.5065265545" class="node node-match" cx="50" cy="130" fill= "#32A500 "> </circle>
+    <circle id="Kenya" r="0.5018548439" class="node node-match" cx="60" cy="130" fill= "#32A500 "> </circle>
+    
+    <circle id="Lebanon" r="0.5018445211" class="node node-match" cx="70" cy="130" fill= "#32A500"> </circle>
+    <circle id="Indonesia" r="0.4899001283" class="node node-match" cx="80" cy="130" fill= "#32A500"> </circle>
+    <circle id="Bulgaria" r="0.4605637306" class="node node-match" cx="90" cy="130" fill= "#32A500"> </circle>
+    <circle id="Belgium" r="0.4575223891" class="node node-match" cx="100" cy="130" fill= "#32A500"> </circle>
+    <circle id="Luxembourg" r="0.4352557127" class="node node-match" cx="110" cy="130" fill= "#32A500"> </circle>
+    
+    <circle id= "Croatia" r="0.4276930072" class="node node-match" cx="120" cy="130" fill= "#32A500"> </circle>
+    <circle id="Ireland" r="0.411367296" class="node node-match" cx="130" cy="130" fill= "#32A500"> </circle>
+    <circle id="Switzerland" r="0.382244443" class="node node-match" cx="140" cy="130" fill= "#32A500"> </circle>
+    <circle id="Germany" r="0.3780425855" class="node node-match" cx="150" cy="130" fill= "#32A500"> </circle>
+    <circle id="Armenia" r="0.3754571076" class="node node-match" cx="160" cy="130" fill= "#32A500"> </circle>
+    
+    <circle id="Cote d'Ivoire" r="0.3694118582" class="node node-match" cx="170" cy="130" fill= "#32A500"> </circle>
+    <circle id="Benin" r="0.3602191007" class="node node-match" cx="10" cy="140" fill= "#32A500"> </circle>
+    <circle id="Netherlands" r="0.3414902028" class="node node-match" cx="20" cy="140" fill= "#32A500"> </circle>
+    <circle id="Denmark" r="0.3395775759" class="node node-match" cx="30" cy="140" fill= "#32A500"> </circle>
+    <circle id="Slovenia" r="0.3357942207" class="node node-match" cx="40" cy="140" fill= "#32A500"> </circle>
+    
+    <circle id="Sweden" r="0.3347318772" class="node node-match" cx="50" cy="140" fill= "#32A500"> </circle>
+    <circle id="Norway" r="0.3310181583" class="node node-match" cx="60" cy="140" fill= "#32A500"> </circle>
+    <circle id="Andorra" r="0.3175796542" class="node node-match" cx="70" cy="140" fill= "#32A500"> </circle>
+    <circle id="Cyprus" r="0.3166262575" class="node node-match" cx="80" cy="140" fill= "#32A500"> </circle>
+    <circle id="Tanzania" r="0.3086174938" class="node node-match" cx="90" cy="140" fill= "#32A500"> </circle>
+    
+    <circle id="Qatar" r="0.3034881541" class="node node-match" cx="100" cy="140" fill= "#32A500"> </circle>
+    <circle id="Timor" r="0.2764631279" class="node node-match" cx="110" cy="140" fill= "#32A500"> </circle>
+    <circle id="Bangladesh" r="0.2705092624" class="node node-match" cx="120" cy="140" fill= "#32A500"> </circle>
+    <circle id="Finland" r="0.266170947" class="node node-match" cx="130" cy="140" fill= "#32A500"> </circle>
+    <circle id="Iceland" r="0.233012916" class="node node-match" cx="140" cy="140" fill= "#32A500"> </circle>
+    
+    <circle id="Niger" r="0.1970552689" class="node node-match" cx="150" cy="140" fill= "#32A500"> </circle>
+    <circle id="Japan" r="0.1908753187" class="node node-match" cx="160" cy="140" fill= "#32A500"> </circle>
+    <circle id="Mali" r="0.1826989418" class="node node-match" cx="170" cy="140" fill= "#32A500"> </circle>
+    <circle id="India" r="0.1751294573" class="node node-match" cx="10" cy="150" fill= "#32A500"> </circle>
+    <circle id="Comoros" r="0.1322143494" class="node node-match" cx="20" cy="150" fill= "#32A500"> </circle>
+
+    <g text-anchor="start"><text x="102" y="150" style="font-size:20%;font-style:italic" class="deaths-prison-headline">Deaths by suicide inside prison facilities in 2019</text></g>
+    </div>
+    </section>
+    
+    </main>
+
+<footer>
+    © Copyright Isabel Bonnet 2022. All Rights Reserved.
+    <a href="isabelbonnet.com" target="_blank" title="isabelwebsite">isabelbonnet.com</a>
+</footer>
+
+  </body>
+
+</html>
