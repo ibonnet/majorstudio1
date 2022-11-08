@@ -1,0 +1,537 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Destruction year": 2012,
+          "Municipality": "Port-Bouet"
+        },
+        "geometry": {
+          "coordinates": [
+            -3.989121656863972,
+            5.255349453199372
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Destruction year": 2018,
+          "Municipality": "Port-Bouet"
+        },
+        "geometry": {
+          "coordinates": [
+            -3.9696991625400244,
+            5.264076120347525
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Treichville",
+          "Destruction year": 2019
+        },
+        "geometry": {
+          "coordinates": [
+            -4.005566347137091,
+            5.284583055011154
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Koumassi",
+          "Destruction year": 2019
+        },
+        "geometry": {
+          "coordinates": [
+            -3.96811891696575,
+            5.2887200844931925
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Koumassi",
+          "Destruction year": 2020
+        },
+        "geometry": {
+          "coordinates": [
+            -3.958165560003863,
+            5.292835003893359
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Koumassi",
+          "Destruction year": 2019
+        },
+        "geometry": {
+          "coordinates": [
+            -3.9555282250101698,
+            5.299926605251471
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Koumassi",
+          "Destruction year": 2011
+        },
+        "geometry": {
+          "coordinates": [
+            -3.9767704743260595,
+            5.3021886292002876
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Koumassi",
+          "Destruction year": 2016
+        },
+        "geometry": {
+          "coordinates": [
+            -3.977797391523211,
+            5.3113327238559265
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Treichville",
+          "Destruction year": 2019
+        },
+        "geometry": {
+          "coordinates": [
+            -4.004158332749853,
+            5.311690706640064
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Destruction year": 2015,
+          "Municipality": "Treichville"
+        },
+        "geometry": {
+          "coordinates": [
+            -4.0117362883466114,
+            5.308516414219213
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Cocody",
+          "Destruction year": 2018
+        },
+        "geometry": {
+          "coordinates": [
+            -4.003281312692877,
+            5.336522651257113
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Cocody",
+          "Destruction year": 2015
+        },
+        "geometry": {
+          "coordinates": [
+            -4.009756020783044,
+            5.340213746315058
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Cocody",
+          "Destruction year": 2015
+        },
+        "geometry": {
+          "coordinates": [
+            -4.009768167790469,
+            5.341667442769179
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Cocody",
+          "Destruction year": 2014
+        },
+        "geometry": {
+          "coordinates": [
+            -4.011871922986472,
+            5.348651120551281
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Destruction year": 2013,
+          "Municipality": "Cocody"
+        },
+        "geometry": {
+          "coordinates": [
+            -4.009096249836318,
+            5.353696467596947
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Adjame",
+          "Destruction year": 2017
+        },
+        "geometry": {
+          "coordinates": [
+            -4.0229017049548474,
+            5.358623867290561
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Destruction year": 2015,
+          "Municipality": "Adjame"
+        },
+        "geometry": {
+          "coordinates": [
+            -4.031142171702527,
+            5.369848291934304
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Destruction year": 2017,
+          "Municipality": "Adjame"
+        },
+        "geometry": {
+          "coordinates": [
+            -4.0235898865375646,
+            5.37768984966894
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Destruction year": 2018,
+          "Municipality": "Yopougon"
+        },
+        "geometry": {
+          "coordinates": [
+            -4.021242164575767,
+            5.398996767700268
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Abobo",
+          "Destruction year": 2020
+        },
+        "geometry": {
+          "coordinates": [
+            -4.016179092456781,
+            5.4213289303356476
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Abobo",
+          "Destruction year": 2016
+        },
+        "geometry": {
+          "coordinates": [
+            -3.992092554786865,
+            5.415478490638023
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Attoban",
+          "Destruction year": 2013
+        },
+        "geometry": {
+          "coordinates": [
+            -3.9902593782757663,
+            5.380198976690963
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Attoban",
+          "Destruction year": 2015
+        },
+        "geometry": {
+          "coordinates": [
+            -3.9869817542501096,
+            5.3724524872560835
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Destruction year": 2015,
+          "Municipality": "Attoban"
+        },
+        "geometry": {
+          "coordinates": [
+            -3.9824169620118255,
+            5.36502397459823
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Destruction year": 2017,
+          "Municipality": "Cocody"
+        },
+        "geometry": {
+          "coordinates": [
+            -3.970552667808846,
+            5.343322796569723
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Cocody",
+          "Destruction year": 2015
+        },
+        "geometry": {
+          "coordinates": [
+            -3.9735995584124453,
+            5.349175478769894
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Destruction year": 2020,
+          "Municipality": "Cocody"
+        },
+        "geometry": {
+          "coordinates": [
+            -3.9487652702017613,
+            5.328252930851136
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Port-Bouet",
+          "Destruction year": 2014
+        },
+        "geometry": {
+          "coordinates": [
+            -3.9179334840996773,
+            5.242737171354207
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Port-Bouet",
+          "Destruction year": 2020
+        },
+        "geometry": {
+          "coordinates": [
+            -3.9252236188386576,
+            5.274270012046813
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Anani",
+          "Destruction year": 2014
+        },
+        "geometry": {
+          "coordinates": [
+            -3.871583586562906,
+            5.237097273751587
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Anani",
+          "Destruction year": 2017
+        },
+        "geometry": {
+          "coordinates": [
+            -3.8694722790968683,
+            5.241894572082018
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Adjame",
+          "Destruction year": 2019
+        },
+        "geometry": {
+          "coordinates": [
+            -4.034180626914491,
+            5.340710298939484
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Destruction year": 2017,
+          "Municipality": "Adjame"
+        },
+        "geometry": {
+          "coordinates": [
+            -4.029460418316717,
+            5.345477199534045
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Yopougon",
+          "Destruction year": 2016
+        },
+        "geometry": {
+          "coordinates": [
+            -4.074534587720677,
+            5.34944942920616
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Attoban",
+          "Destruction year": 2021
+        },
+        "geometry": {
+          "coordinates": [
+            -4.006089089118603,
+            5.3756218997902465
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Attoban",
+          "Destruction year": 2021
+        },
+        "geometry": {
+          "coordinates": [
+            -4.0042408854652365,
+            5.3728515469613285
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Municipality": "Koumassi",
+          "Destruction year": 2018
+        },
+        "geometry": {
+          "coordinates": [
+            -3.9890420200291032,
+            5.297451013494069
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Destruction year": 2017,
+          "Municipality": "Port-Bouet"
+        },
+        "geometry": {
+          "coordinates": [
+            -3.971852875966846,
+            5.26285425897818
+          ],
+          "type": "Point"
+        }
+      }
+    ]
+  }

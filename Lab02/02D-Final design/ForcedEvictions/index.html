@@ -1,0 +1,396 @@
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="styles.css"> 
+    <script type="text/javascript" src='https://unpkg.com/scrollama'></script>
+    <script type="text/javascript" src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+     <!-- Load scrollama.js -->
+    <script src="scrollama.js"></script>
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+
+<!-- Create a div where the graph will take place -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+    </head>
+
+  <body>
+
+    <!---- Navigation / Course Title -->
+    <header>
+        <div id="title"><i>Lab 02: Major Studio 1</i></div>
+    <!-- end #title -->
+    <nav class="nav">
+        <ul>
+        <li><a href="#CountryProfile">Country profile</a></li>
+            <li><a href="#NewInfrastructure">New infrastructure</a></li>
+            <li><a href="#Investigation">Investigation</a></li>
+    </ul>
+    </nav>
+    </header>
+
+    <main>
+<!-- Headline, poster image and lede -->
+        <section class="ArticleHeader">
+        <p><h1>Forced evictions and house destructions in Côte d'Ivoire</h1></p>
+        </section>
+        <section class="Intro">
+        <div>
+            <img id="poster" src="https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579122975149-ETABORG21RXNLNUW63H4/_P3A3941.jpg?format=2500w">
+            <div>
+                <p class="caption">Jan. 10, 2020, Abattoir neighborhood, Port-Bouet, Abidjan.</p></div>
+            </div>
+        <p class="Intro" id="lede">Despite positioning itself as one of the leading economies in West Africa, Cote d'Ivoire's urbanization plans do not always benefit the poorest populations. Over the past decade, the country has experienced an increase in number and frequency of house destructions.</p>
+        <p class="Intro" id="byline">BY ISABEL BONNET</p>
+    </section>
+    
+  <hr width="100%">
+  
+  <div id="CountryProfile"></div>
+  
+<div class="spacer" style="height:120px;"></div>
+
+<div id="Africa-Map">
+        <div>
+        <p class="Text2">The president of Côte d'Ivoire since 2010, Alassane Ouattara, appears to have kept his promise to modernise Abidjan, the country’s economic capital, by restoring stability and calm.</p>
+        <p class="Text2">Since its independence from France in 1960, Côte d'Ivoire went through two civil wars. It has now become one of the leading exporters of cocoa, coffee and palm oil, and its economy has grown faster than most African nations. </p>
+  </div>
+    <div>
+    <iframe title="" aria-label="Map" id="datawrapper-chart-oS7w9" src="https://datawrapper.dwcdn.net/oS7w9/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 60% !important; border: none;" height="305"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+    </script>
+        </div>
+ </div>
+    
+<div class="spacer" style="height:170px;"></div>
+
+<!-- SDG data here -->
+
+<div id="GDP">
+    <p style="text-align: center" class="Text2"><b>Annual growth rate of real GDP per capita and per employed person (%)</b></p>
+    <div id="GDPCapitaEmployed">
+    </div>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script>
+      /* global d3 */
+      
+      
+      // set the dimensions and margins of the graph
+      var margin = {top: 10, right: 100, bottom: 30, left: 30},
+          width = 800 - margin.left - margin.right,
+          height = 400 - margin.top - margin.bottom;
+      
+      // append the svg object to the body of the page
+      var chart3 = d3.select("#GDPCapitaEmployed")
+        .append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+          .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+      
+      //Read the data
+      d3.csv("GDPCapitaEmployed.csv", function(data) {
+      
+          // List of groups (here I have one group per column)
+          var allGroup = ["Capita", "Employed"]
+      
+          // Reformat the data: we need an array of arrays of {x, y} tuples
+          var dataReady = allGroup.map( function(grpName) { // .map allows to do something for each element of the list
+            return {
+              name: grpName,
+              values: data.map(function(d) {
+                return {Year: d.Year, value: +d[grpName]};
+              })
+            };
+          });
+          // I strongly advise to have a look to dataReady with
+          // console.log(dataReady)
+      
+          // A color scale: one color for each group
+          var myColor = d3.scaleOrdinal()
+            .domain(allGroup)
+            .range(d3.schemeSet2);
+      
+          // Add X axis --> it is a date format
+          var x = d3.scaleLinear()
+            .domain([2000,2018])
+            .range([ 0, width ]);
+          chart3.append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x));
+      
+          // Add Y axis
+          var y = d3.scaleLinear()
+            .domain( [-8,10])
+            .range([ height, 0 ]);
+          chart3.append("g")
+            .call(d3.axisLeft(y));
+      
+          // Add the lines
+          var line = d3.line()
+            .x(function(d) { return x(+d.Year) })
+            .y(function(d) { return y(+d.value) })
+          chart3.selectAll("myLines")
+            .data(dataReady)
+            .enter()
+            .append("path")
+              .attr("d", function(d){ return line(d.values) } )
+              .attr("stroke", function(d){ return myColor(d.name) })
+              .style("stroke-width", 4)
+              .style("fill", "none")
+      
+          // Add the points
+          chart3
+            // First we need to enter in a group
+            .selectAll("myDots")
+            .data(dataReady)
+            .enter()
+              .append('g')
+              .style("fill", function(d){ return myColor(d.name) })
+            // Second we need to enter in the 'values' part of this group
+            .selectAll("myPoints")
+            .data(function(d){ return d.values })
+            .enter()
+            .append("circle")
+              .attr("cx", function(d) { return x(d.Year) } )
+              .attr("cy", function(d) { return y(d.value) } )
+              .attr("r", 5)
+              .attr("stroke", "white")
+      
+          // Add a legend at the end of each line
+          chart3
+            .selectAll("myLabels")
+            .data(dataReady)
+            .enter()
+              .append('g')
+              .append("text")
+                .datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; }) // keep only the last value of each time series
+                .attr("transform", function(d) { return "translate(" + x(d.value.Year) + "," + y(d.value.value) + ")"; }) // Put the text at the position of the last point
+                .attr("x", 15) // shift the text a bit more right
+                .text(function(d) { return d.name; })
+                .style("fill", function(d){ return myColor(d.name) })
+                .style("font-size", 15)
+      
+      })
+      </script>
+</div>
+
+<div class="spacer" style="height:150px;"></div>
+
+<div>
+    <p class="Text2">In 2018, Cote d'Ivoire's total international support to infrastructure was five times as high as in 2011. Data from the United Nation's Sustainable Development Goals found that the country received more than 271 million dollars from foreign investors, a 405.7% increase in Alassane Ouattara's first two presidential terms.</p>
+    <p class="Text2">Though President Ouattara’s curriculum of new infrastructure seems to inspire dreams of a modern, emergent and growing economy, it is, realistically, only the wealthy who have benefited.</p>
+    </div>
+<div class="spacer" style="height:60px;"></div>
+<div id="SDG-Decline-Graphs">
+    <div>
+<!-- Link: https://unstats.un.org/sdgs/dataportal/countryprofiles/civ -->
+        <iframe aria-label="Column Chart" id="datawrapper-chart-yJNmb" src="https://datawrapper.dwcdn.net/yJNmb/4/" scrolling="no" frameborder="0" style="width: 300px; min-width: 100% !important"></iframe>
+        <script type="text/javascript">
+        !function(){"use strict";
+        window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");
+        for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++)
+        {
+            if(t[r].contentWindow===e.source)t[r]
+            .style.height=e.data["datawrapper-height"][a]+"px"}}}))
+        }();
+    </script>
+    </div>
+    
+    <div>
+    <iframe title=" (Copy)" aria-label="Column Chart" id="datawrapper-chart-KdFrA" src="https://datawrapper.dwcdn.net/KdFrA/1/" scrolling="no" frameborder="0" style="width: 300px; min-width: 100% !important; border: none;"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+    </script>
+    </div>
+    <div class="spacer" style="height:300px;"></div>
+</div>
+
+<div id="NewInfrastructure"></div>
+ 
+     <section id="SDG-Growth">
+      <!-- First part of the article with graph -->
+    <div class="Text2">
+        <p>For the optimists, Alassane Ouattara will be remembered as the president who boosted the
+            economy by building new infrastructures and for promoting international financial collaborations, mainly with China and France.
+            <p>For some, destruction is all he represents.</p>
+    </div>
+        <div id="imgsouattara">
+          <img style="height:500px; margin-left:180px; margin-top:-115px"; src="Ouattara.png"></img>
+          </div>
+          
+    <div class="spacer" style="height:260px;"></div>  
+    
+<!-- General presentation of the evictions using satellite imagery -->
+
+    <section class="Text2" id="ArticlePart02">
+        <section>
+    <div id="AbidjanGrandBassamMap"><object data="forcedevictions-03.svg" width="1200px"> </object></div>
+</section>
+        <div class="spacer" style="height:300px;"></div>
+       <!--  Link to the Chinese government financing the project: https://china.aiddata.org/projects/33663/  -->
+        <p>Among the major achievements of his first two terms are the construction of a highway between Abidjan and Grand Bassam, a coastal town in the south-east, and a third bridge over the Ebrié Lagoon, which divides the capital in two. Ouattara has also started the construction of two more bridges, as well as a metro.</p>
+        <p>The construction of the highway has freed up space to build a path along a stretch of coastline that will be used for private sports facilities and a heliport – but it has also left 22,000 people homeless.</p>
+        <p>A quick look into the first 4.2 miles of the highway shows the transformation of an entire neighborhood between 2014 and 2017.</p>
+        <div class="spacer" style="height:80px;"></div>
+    </section>
+<!-- Scrolly for the case study -->
+
+<!-- https://pudding.cool/process/introducing-scrollama/ link for more details-->
+<section id="highway">
+     <div class="spacer" style="height:200px;"></div>
+    <article id="highwayarticle">
+          <div class='step' data-width='100%' data-index='1'><p><h4>2010</h4></p></div>
+          <div style="height:650px;"></div>
+          <div class='step' data-width='30%' data-index='2'><p><h4>2014</h4></p></div>
+          <div style="height:400px;"></div>
+          <div class='step' data-width='30%' data-index='3'><p><h4>Bulldozers and caterpillars and started demolishing people's homes.</h4></p></div>
+          <div style="height:300px;"></div>
+          <div class='step' data-width='30%' data-index='4'><p><h4>More than 4,000 houses were destroyed.</h4></p></div>
+          <div style="height:300px;"></div>
+          <div class='step' data-width='30%' data-index='5'><p><h4>Some people were still inside when the destruction started.</h4></p></div>
+         <div style="height:280px;"></div>
+          <div class='step' data-width='30%' data-index='6'><p><h4>22,000 people lost their home.</h4></p></div>
+          <div style="height:260px;"></div>
+          <div class='step' data-width='30%' data-index='7'><p><h4>2019</h4></p></div>
+          <div style="height:230px;"></div>
+          <div class='step' data-width='100%' data-index='8'><p><h4>They never received any sort of compensation.</h4></p></div>
+          <div style="height:70px;"></div>
+    </article>
+</section>
+
+<section class="img-center">
+  <div style="height:50px;"></div>
+  <div>
+      <img style="height:600px"; src="https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579303991460-VEMWZR998E5J1595ZAI0/_P3A4049.jpg?format=2500w"></img>
+    </div>
+    <div><p class="caption">March 2019, view of the 14km-long Abidjan-Grand Bassam highway. There used to be a village along the littoral.</p></div>
+<div style="height:250px;"></div>
+</section>
+
+<!-- Human side of the evictions -->
+
+<section>
+    <div class="Text1"><p>Sandrine spent months preparing for her final exams, the French Baccalaureate, under the roof of her small house in Vridi, one of Abidjan's precarious neighborhoods. It was 5 a.m. when she arrived at the test center that would determine her successful highschool graduation. Her phone rang: it was her mom. "Come back home," she told her. "They will tore our house down."</p></div>
+    <div class="Text1"><p>By the time she returned home to collect her belongings, her entire neighborhood had been razed to the ground.</p></div>
+    <div style="height:20px;"></div>
+    <div id="imgsabattoir">
+      <div>
+          <img style="height:250px"; src="https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579124623296-N1806UFSQP4CLBCU4QHV/_P3A4000.jpg?format=1000w"></img>
+          </div>
+      <div>
+          <img style="height:250px"; src="https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579124284517-YJRT1P5ZQ6XYOQNYR28Q/_P3A4007.jpg?format=2500w"></img>
+          </div>
+      <div>
+          <img style="height:250px"; src="https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579124781904-DLUPRKDO2JTWCR79N8T0/_P3A3971.jpg?format=1000w"></img>
+          </div>
+    </div>
+    <div><p class="caption">Jan. 10, 2020, Abattoir neighborhood, Port-Bouet, Abidjan.</p></div>
+    <div style="height:300px;"></div>
+    <div class="quote">
+        <p class="quote" id="quote-text">"We still don’t know why we were evicted.”</p>
+        <p class="quote" id="quote-attribution"><i>–Adama Dramé, a member of the Collective of the Evicted of the New Abattoir District.</i></p>
+        </div>
+    <div style="height:350px;"></div>
+</section>
+
+<section>
+    <div class="bg-image">
+        <div class="bg-text"><p>Their neighborhood was demolished without prior notice.</p></div>
+        <div class="background-image img1" style="height:800px;"></div>
+        <div class="background-image img2" style="height:800px;"></div>
+        <div class="background-image img3" style="height:800px;"></div>
+        <div class="background-image img4" style="height:800px;"></div>
+    </div>
+</section>
+
+<!-- Scope of the issue -->
+<section id="PrecariousDistricts">
+    <div style="height:300px;"></div>
+    <div class="Text1"><p>The main targets are local markets and marginalized neighborhoods. Though some recent house destructions were done to build new projects such as a metro and two bridges, the reason for demolishing most households remains unknown.</p></div>
+    <div class="Text1"><p>This would have made the news, but it was not extraordinary. Abidjan has about 5 million inhabitants, but in 2019, the Minister of Construction, Housing and Urbanization announced that 1,2 million houses in 132 “precarious districts” would be demolished.</p></div>
+    <div style="height:300px;"></div>
+    <div id="one-fifth">
+      <div class="Text1"><div style="height:190px;"></div><p>One fifth of the population has lost their homes.</p></div>
+      <div><object data="Population-Evicted.svg" height="550px" style="padding: 10px"> </object></div>
+    </div>
+</section>
+
+<div id="Investigation"></div>
+
+<!-- First part of the article with graph -->
+    <div class="Text2" id="ArticlePart03">
+        <div class="spacer" style="height:300px;"></div>
+        <div><p>I spent the past years tracking house destructions in Abidjan using satellite imagery on Google Earth and combining this research with all available information online: Youtube videos, tweets, Facebook posts and government websites.</p></div>
+        <div class="spacer" style="height:380px;"></div>
+
+
+<!-- SVG of forced evictions over the years -->
+<section>
+    <div id="graphs-forcedevictions"><object data="forcedevictions-01.svg" width="1000px" style="padding: 20px"> </object></div>
+</section>
+
+<div class="spacer" style="height:80px;"></div>
+</section>
+
+<!-- SVG Map -->
+<section id="interactivemap">
+    <object data="forcedevictions-05.svg" height="600px"> </object> 
+</section>
+
+<section class="Text2" id="ArticlePart04">
+    <div style="height:200px;"></div>
+    <p>Just before the highway, opposite the coastline, is one of Abidjan’s largest suburbs: Adjouffou. About 25,000 residents live in this constantly growing village, right next to the international airport.</p>
+    <p>In January 2020, a 14-year-old boy was found dead in the undercarriage of an Air France jet travelling from Abidjan to Paris. For the government, there was only one explanation: the young man had accessed the runway by crossing a common wall between the air strip and Adjouffou. Authorities had all the excuses they needed to demolish the village, under the pretence of stopping people from illegally accessing the airport. Residents were given a 24-hour notice to leave the neighbourhood.</p>
+    <p>The verdict wasn’t a surprise; the government had been waiting for a reason to demolish Adjouffou for some time. In 2017, Ivorian authorities announced their intention to expand the airport, starting in 2020.</p>
+    <p></p>
+    <div style="height:60px;"></div>
+</section>
+<div class="spacer" style="height:200px;"></div>
+
+<div class="datawrapper">
+<iframe title="" aria-label="Locator maps" id="datawrapper-chart-rgw7p" src="https://datawrapper.dwcdn.net/rgw7p/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 50% !important; border: none; margin-left:350px" height="638"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
+<div style="height:100px;"></div>
+</div>
+
+<section class="Text2" id="ArticlePart04">
+    <div style="height:260px;"></div>
+    <p>In 2019, Amnesty International raised concerns about the lack of consultation prior to evictions. “They also fail to provide people with information about the reason for an eviction, adequate notice or legal remedies, or adequate housing options for resettlement,” reads their report.</p>
+    <p>According to the UNHRW, “forced evictions are a gross violation of human rights, in particular the right to adequate housing” (Resolution 1993/77). Because the guidelines on forced evictions remain the only written rules and regulations, there is no national policy preventing these governments from violating international human law during forced evictions.</p>
+    <div style="height:60px;"></div>
+</section>
+<div class="spacer" style="height:200px;"></div>
+
+
+<section class="img-center">
+  <div>
+      <img style="height:600px"; src="https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1594586941748-7UDD1TTI6IR31QH7M3C3/%C2%A9+Isabel+Bonnet-27.jpg?format=1000w"></img>
+    </div>
+    <div><p class="caption">Jan. 27, 2020, Aéro Canal, Port-Bouet, Abidjan.</p></div>
+</section>
+
+
+
+<div class="spacer" style="height:50px;"></div>
+
+<div id="source" style="text-align: center">
+        <p><i>
+            Parts of this research and paragraphs were published in <a href="https://www.vice.com/en/article/pky8db/ivory-coast-forced-eviction-homelessness">VICE</a> in 2020.
+       </i></p>
+    </div>
+    
+<div class="spacer" style="height:90px;"></div>
+    
+</main>
+
+<footer>
+    © Copyright Isabel Bonnet 2022. All Rights Reserved.
+    <a href="isabelbonnet.com" target="_blank" title="isabelwebsite">isabelbonnet.com</a>
+</footer>
+
+  </body>
+
+</html>

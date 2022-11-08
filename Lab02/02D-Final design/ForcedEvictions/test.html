@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script type="text/javascript" src='https://unpkg.com/scrollama'></script>
+    <script type="text/javascript" src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+
+<style>
+
+section {
+  display: block;
+}
+
+</style>
+
+ </head>
+    
+<body>
+
+<div style="height:50px;"></div>
+
+<p>slider</p>
+
+<div class="slider">
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    <div class='img background-img'></div>
+    <div class='img foreground-img'></div>
+  <script type="text/javascript">
+  .slider {
+  position: relative;
+  width: 900px;
+  height: 600px;
+  border: 2px solid white;
+  .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 900px 100%;
+  }
+  .background-img {
+    background-image: url('https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02D-Final%20design/IMAGES/GrandBassam4k-2010.jpg?raw=true');
+  }
+  .foreground-img {
+    background-image: url('https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02D-Final%20design/IMAGES/GrandBassam4k-2014.jpg?raw=true');
+    width: 50%;
+  }
+}
+</script>
+</div>
+
+</body>
+
+</html>

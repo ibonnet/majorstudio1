@@ -1,0 +1,400 @@
+.style
+
+html {
+  margin: 0 auto;
+  width: 100%;
+}
+
+body {
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; Times New Roman */
+  font-family: "Tiempos Text", Georgia, serif;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+/* Navigation / Course Title */
+header   {
+  width: 100%;
+  height: auto;
+  background-color:black;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:black;
+  color: white;
+  position: static;
+  padding:13px;
+  text-align: left;
+  margin-top: -40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+nav a:link { text-decoration: none; }
+nav a:visited { text-decoration: none; }
+nav a:hover { background: white; color: black}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  border-bottom: 1px solid;
+}
+
+#title {
+  font-family: "Tiempos Text", Georgia, serif;
+  font-size: 12px;
+  background-color:black;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  padding:10px;
+}
+
+/* Main */
+
+/* Intro= #Lede, #Byline, #Poster, Lede=Lede text, Byline=Name */
+
+.ArticleHeader {
+  width: 40%;
+  margin: auto;
+  position: static;
+}
+
+h1 {
+  text-align: center;
+  position: static;
+  font-family: "Tiempos Text", Georgia, serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Intro {
+  text-align: center;
+  position: static;
+  margin: auto;
+  padding:10px;
+}
+
+.img-center {
+  text-align: center;
+  position: static;
+  margin: 50px;
+  padding:10px;
+}
+
+.caption {
+  font-size: 10px;
+  top: -1px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#poster {
+  width: 700px;
+}
+
+#lede {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+}
+
+#byline {
+  font-size: 13px;
+  color: #323232;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Text1 {
+  margin: 50px;
+}
+
+.Text2 {
+  margin: 50px;
+}
+
+
+/* titles */
+
+h2 {
+  font-family: "Tiempos Text", Georgia, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color:  #000000;
+  background-color: #ffffff
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  color:  #000000;
+  background-color: #ffff
+}
+
+h4 {
+  font-family: "Tiempos Text", Georgia, serif;
+  font-size: 25px;
+  font-weight: 200;
+  color:  #000000;
+  background-color: #ffff
+}
+
+#PrecariousDistricts {
+  background-color: #ffffff;
+  color: #000000;
+  margin-top: 10px;
+}
+
+#imgsabattoir {
+  columns: 3;
+  column-gap: 10px;
+  margin-left: 40px;
+}
+
+.quote {
+  text-align: center;
+}
+
+#quote-attribution {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#quote-text {
+  font-size: 27px;
+  font-family: "Tiempos Text", Georgia, serif;
+}
+
+section {
+  display: block;
+}
+
+/* Images used */
+.img1 { 
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579123876436-UHGZGLJ9ADYDPCGCP6LY/_P3A4145.jpg?format=1000w"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img2 { 
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579124933121-K89Q833MUOHPFUJXCDY0/_P3A4112.jpg?format=1000w"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.img3 { 
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579123765370-KH2DQA0Q8FRRXY1LG1BB/_P3A4139.jpg?format=1000w"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img4 { 
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5d38648992abb10001ddf60c/1579123604918-PXCIWCYXS6IB7F4Z5BMO/_P3A4129.jpg?format=1000w"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(255, 255, 255); /* Fallback color */
+  background-color: rgba(255, 255, 255, 0.894); /* Black w/opacity/see-through */
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  position: sticky; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  bottom:50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 600px;
+  text-align: center;
+}
+
+
+#interactivemap {
+  text-align: center;
+}
+
+/* button {
+  color: black;
+  background-color: white;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  font-family: "Tiempos Text", Georgia, serif;
+  font-size: 20px;
+  padding: 5px;
+}
+*/
+
+#SDG-Decline-Graphs {
+  margin-left: 10px;
+  margin-right: 10px;
+  columns: 2;
+}
+
+#Africa-Map {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  columns: 2;
+}
+
+.datawrapper {
+  padding: 20;
+  display: block;
+  width: 300;
+}
+
+/*
+#buttons-SDG {
+  text-align: center;
+  margin: auto;
+}
+*/
+
+#one-fifth {
+  column-count: 2;
+  column-gap: 10px;
+  text-align: center;
+}
+
+#one-fifth p {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 10px;
+  z-index: 2;
+}
+
+.GDP-Growth-Graphs {
+  display: grid;
+  column-gap: 50px;
+  grid-columns: 2;
+}
+
+#graphs-forcedevictions {
+  text-align: center;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  position: static;
+  padding:3px;
+}
+
+/* scrolly of numbers */
+
+#scrolly01article {
+			position: relative;
+			margin: 0 auto;
+			width: 33%;
+			text-align: center;
+}
+
+#scrolly01step {
+  background-color: rgb(255, 255, 255); /* Fallback color */
+  background-color: rgba(255, 255, 255, 0.894); /* Black w/opacity/see-through */
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  position: sticky; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  bottom:50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 400px;
+  text-align: center;
+}
+
+/* scrolly of events */
+
+#highwayarticle {
+	position: relative;
+	margin: 60%;
+	text-align: center;
+	margin-top: 10px;
+}
+	
+#highway {
+  background-image: url('https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02D-Final%20design/IMAGES/GrandBassam-historical-01.png?raw=true');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* scrolly info */
+
+.step {
+  background-color: white; /* Fallback color */
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 1px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  width: 300px;
+}
+
+#GDP {
+  text-align: center;
+}
+
+#source {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  position: relative;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	width: 30%;
+}
+
+/* scrollama */
+
+/* 2010 */
+.simg1 {
+  background-image: url('https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02D-Final%20design/IMAGES/GrandBassam4k-2010.jpg?raw=true')
+}
+
+/* 2014 */
+.simg2 {
+  background-image: url('https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02D-Final%20design/IMAGES/GrandBassam4k-2014.jpg?raw=true')
+}
+
+/* 2018 */
+.simg3 {
+  background-image: url('https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02D-Final%20design/IMAGES/GrandBassam4k-2019.jpg?raw=true')
+}
+
+/* 2022 */
+.simg4 {
+  background-image: url('https://github.com/ibonnet/majorstudio1/blob/main/Lab02/02D-Final%20design/IMAGES/GrandBassam4k-2022.jpg?raw=true')
+}
