@@ -16,13 +16,15 @@ We will be able to see arrows to see the remittance flows coming to Nicaragua fr
 
 ### Interactivity
 
-I will be using either <a href="https://flowmap.blue/">Flow Map Blue</a> or <a href="https://datavizproject.com/data-type/flow-map/#:~:text=Flow%20Maps%20in%20cartography%20can,the%20connections%20shows%20the%20quantity">Sankey diagrams</a> to code this remittances flow map.
+Coding ideas:
+<li><a href="https://d3-graph-gallery.com/graph/connectionmap_csv.html">D3 Gallery</a></li>
+<li><a href="https://flowmap.blue/">Flow Map Blue</a></li>
+<li><a href="https://datavizproject.com/data-type/flow-map/#:~:text=Flow%20Maps%20in%20cartography%20can,the%20connections%20shows%20the%20quantity">Sankey diagrams</a></li>
 
 ### Examples
 
 <li><a href="https://c4sr.columbia.edu/csr-home/#!/about">Center for Spacial Research.</a></li>
 <li><a href="https://colombia.c4sr.columbia.edu/applications/animation.html">Displacements in Colombia.</a></li>
-<li><a href="https://d3-graph-gallery.com/graph/connectionmap_csv.html">D3 Gallery</a></li>
 
 ## Chains of command to commit crimes against humanity in Venezuela
 
