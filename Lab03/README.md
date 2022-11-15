@@ -1,6 +1,6 @@
 # Lab 03: Dynamics, Interactivity and Narrative
 
-<i><b>Learning Goals:</b>This segment of the course will introduce the design elements of dynamics and interactivity.
+<i><b>Learning Goals:</b> This segment of the course will introduce the design elements of dynamics and interactivity.
 Students will gain an understanding of how these elements can be used to further communicate
 meaning within data sets. Design exercises will introduce additional web-based tools to incorporate
 dynamics and interactivity into new design explorations. Special emphasis will be placed on the
@@ -11,3 +11,57 @@ Students will choose a data set in coordination with the instructor and design a
 interactive visualization of the content for an intended audience. Through the exercise, students will
 explore the most effective way to animate the information. Group discussion and critique of the
 design solutions will highlight best practices.</i>
+
+## 03A: Concept & Sketches
+
+<i><b>Goals:</b> Come up with 3 different concepts for an interactive or narrative project for this data set. You can revisit one of the previous assignments and add these dynamic elements to it, or come up with a new idea and concept. This time your sketch can be higher fidelity than a paper sketch.
+
+A written paragraph should include:
+
+<li>Title of the visualization (what am I looking at)</li>
+<li>What are questions that you want to explore with this visualization?</li>
+<li>Why are you creating an interactive/narrative version of it?</li>
+<li>What will narrativity and interactivity add to this project that was not possible in static form?</li>
+<li>Which dataset is used?</li>
+<li>What are the properties of the data set? How many data points, what's the quality of the data etc?</li>
+<li>Which visualization method is used and why?</li>
+<li>Feel free to make ample use of sketches, mockups or visual, interaction or code references.</li>
+</i>
+
+## 03B: Design mockup and prototype
+
+After the first design review, decide for one of the concepts for this assignment. You now have two parallel work streams: Design and code. For this assignment create a prototype for both.
+
+### Design mockup
+
+<i><b>Goals:</b>
+<li>Create a high fidelity version of the design you want to create.</li>
+<li>Include the data visualization, a title, a legend and the relevant scales and units.</li>
+<li>Carefully consider colors, scale, composition and typography.</li>
+<li>Show how the interactivity and narrative will be expressed. For example using a variety of screens to show different states of your application, or using animation in tools such as Figma or After Effects.</li>
+<li>Be able to answer why you picked any of the above.</li>
+<li>All designs should be created with a 16:9 aspect ratio in mind (1920x1080px).</li>
+
+</i>
+ 
+
+### Code prototype
+
+<i><b>Goals:</b>
+<li>Gather all the data you want to use or build a system to query it using the api.</li>
+<li>Make sure the data is structured in the right way for your dynamic visualization.</li>
+<li>Build a prototype that loads the data and displays it visually on the scree.</li>
+<li>Imagine a plan to get to your high fidelity mockup in code.</li>
+</i>
+
+## 03C: Second iteration of design and prototype
+
+<i><b>Goals:</b> 
+
+</i>
+
+## 03D: Final design, prototype and presentation
+
+<i><b>Goals:</b> 
+
+</i>
